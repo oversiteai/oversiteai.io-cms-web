@@ -27,17 +27,17 @@
     "slug": "darkwater-inquiry"
   },
   {
-    "id": 22,
-    "display_id": 1,
-    "content_type": "services",
-    "title": "A Services Article",
-    "published_at": "2026-03-07T21:14:31.179128"
-  },
-  {
     "id": 1,
     "display_id": 1,
     "content_type": "solutions",
     "title": "Geofencing and GPS Precision",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 22,
+    "display_id": 1,
+    "content_type": "services",
+    "title": "A Services Article",
     "published_at": "2026-03-07T21:14:31.179128"
   },
   {
