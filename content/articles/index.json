@@ -1,13 +1,13 @@
 [
   {
-    "id": "darkwater-inquiry",
+    "id": 10,
     "display_id": 1,
-    "content_type": "cta",
-    "title": "Secure Your Operations with DARKWATER",
-    "published_at": "2026-03-07T15:03:43.723408"
+    "content_type": "media",
+    "title": "Military-Grade Security in Oil & Gas: Beyond Compliance",
+    "published_at": "2026-03-07T21:14:31.179128"
   },
   {
-    "id": 6,
+    "id": 16,
     "display_id": 1,
     "content_type": "featured",
     "title": {
@@ -15,194 +15,159 @@
       "highlight": "PROJECT DARKWATER",
       "highlightClass": "gradient-text"
     },
-    "published_at": "2026-03-07T15:17:00.771816",
+    "published_at": "2026-03-07T21:14:31.179128",
     "slug": "darkwater"
   },
   {
-    "id": 7,
+    "id": 17,
     "display_id": 1,
-    "content_type": "media",
-    "title": "Military-Grade Security in Oil & Gas: Beyond Compliance",
-    "published_at": "2026-03-07T15:17:00.772704"
-  },
-  {
-    "id": 13,
-    "display_id": 1,
-    "content_type": "solutions",
-    "title": "Geofencing and GPS Precision",
-    "published_at": "2026-03-07T15:53:01.353025"
+    "content_type": "cta",
+    "title": "Secure Your Operations with DARKWATER",
+    "published_at": "2026-03-07T21:58:25.380352",
+    "slug": "darkwater-inquiry"
   },
   {
     "id": 22,
     "display_id": 1,
     "content_type": "services",
     "title": "A Services Article",
-    "published_at": "2026-03-07T18:53:54.722422+00:00"
+    "published_at": "2026-03-07T21:14:31.179128"
   },
   {
     "id": 1,
     "display_id": 1,
-    "content_type": "cta",
-    "title": "Secure Your Operations with DARKWATER",
-    "published_at": "2026-03-07T15:17:00.766027",
-    "slug": "darkwater-inquiry"
+    "content_type": "solutions",
+    "title": "Geofencing and GPS Precision",
+    "published_at": "2026-03-07T21:14:31.179128"
   },
   {
-    "id": "header-contact",
-    "display_id": 2,
-    "content_type": "cta",
-    "title": "Get in Touch",
-    "published_at": "2026-03-07T15:03:43.725498"
-  },
-  {
-    "id": 8,
-    "display_id": 2,
-    "content_type": "media",
-    "title": "Field Ops Transformation: Early Adopter Lessons",
-    "published_at": "2026-03-07T15:17:00.775765"
-  },
-  {
-    "id": 14,
+    "id": 2,
     "display_id": 2,
     "content_type": "solutions",
     "title": "Bluetooth Flow Meter Automation",
-    "published_at": "2026-03-07T15:17:00.786121"
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 11,
+    "display_id": 2,
+    "content_type": "media",
+    "title": "Field Ops Transformation: Early Adopter Lessons",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 18,
+    "display_id": 2,
+    "content_type": "cta",
+    "title": "Get in Touch",
+    "published_at": "2026-03-07T21:58:25.380352",
+    "slug": "header-contact"
   },
   {
     "id": 23,
     "display_id": 2,
     "content_type": "services",
-    "title": "Another ARticle",
-    "published_at": "2026-03-07T18:53:54.722422+00:00"
-  },
-  {
-    "id": 2,
-    "display_id": 2,
-    "content_type": "cta",
-    "title": "Get in Touch",
-    "published_at": "2026-03-07T15:17:00.767883",
-    "slug": "header-contact"
-  },
-  {
-    "id": "hero-talk-to-us",
-    "display_id": 3,
-    "content_type": "cta",
-    "title": "Let's Transform Your Operations",
-    "published_at": "2026-03-07T15:03:43.727110"
-  },
-  {
-    "id": 9,
-    "display_id": 3,
-    "content_type": "media",
-    "title": "Predictive Maintenance: From Reactive to Proactive Operations",
-    "published_at": "2026-03-07T15:17:00.777983"
-  },
-  {
-    "id": 15,
-    "display_id": 3,
-    "content_type": "solutions",
-    "title": "Real-Time Well Verification",
-    "published_at": "2026-03-07T15:17:00.788318"
+    "title": "Another ARticle1",
+    "published_at": "2026-03-07T21:08:14.855960"
   },
   {
     "id": 3,
     "display_id": 3,
+    "content_type": "solutions",
+    "title": "Real-Time Well Verification",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 12,
+    "display_id": 3,
+    "content_type": "media",
+    "title": "Predictive Maintenance: From Reactive to Proactive Operations",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 19,
+    "display_id": 3,
     "content_type": "cta",
     "title": "Let's Transform Your Operations",
-    "published_at": "2026-03-07T15:17:00.769373",
+    "published_at": "2026-03-07T21:58:25.380352",
     "slug": "hero-talk-to-us"
-  },
-  {
-    "id": "operations-demo",
-    "display_id": 4,
-    "content_type": "cta",
-    "title": "See OversiteAI in Action",
-    "published_at": "2026-03-07T15:03:43.728926"
-  },
-  {
-    "id": 10,
-    "display_id": 4,
-    "content_type": "media",
-    "title": "Digital Compliance: Automation & Reporting",
-    "published_at": "2026-03-07T15:17:00.779592"
-  },
-  {
-    "id": 16,
-    "display_id": 4,
-    "content_type": "solutions",
-    "title": "Automated UIC Generation",
-    "published_at": "2026-03-07T15:17:00.790534"
   },
   {
     "id": 4,
     "display_id": 4,
+    "content_type": "solutions",
+    "title": "Automated UIC Generation",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 13,
+    "display_id": 4,
+    "content_type": "media",
+    "title": "Digital Compliance: Automation & Reporting",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 20,
+    "display_id": 4,
     "content_type": "cta",
     "title": "See OversiteAI in Action",
-    "published_at": "2026-03-07T15:17:00.770184",
+    "published_at": "2026-03-07T21:58:25.380352",
     "slug": "operations-demo"
-  },
-  {
-    "id": "solutions-inquiry",
-    "display_id": 5,
-    "content_type": "cta",
-    "title": "Explore Our Solutions",
-    "published_at": "2026-03-07T15:03:43.730966"
-  },
-  {
-    "id": 11,
-    "display_id": 5,
-    "content_type": "media",
-    "title": "The Role of AI in Modern Field Operations",
-    "published_at": "2026-03-07T15:17:00.780981"
-  },
-  {
-    "id": 17,
-    "display_id": 5,
-    "content_type": "solutions",
-    "title": "Digital Chain of Custody",
-    "published_at": "2026-03-07T15:17:00.793170"
   },
   {
     "id": 5,
     "display_id": 5,
-    "content_type": "cta",
-    "title": "Explore Our Solutions",
-    "published_at": "2026-03-07T15:17:00.770951",
-    "slug": "solutions-inquiry"
+    "content_type": "solutions",
+    "title": "Digital Chain of Custody",
+    "published_at": "2026-03-07T21:14:31.179128"
   },
   {
-    "id": 12,
-    "display_id": 6,
+    "id": 14,
+    "display_id": 5,
     "content_type": "media",
-    "title": "Compliance Reimagined: Digital Tools & Reporting",
-    "published_at": "2026-03-07T15:17:00.782338"
-  },
-  {
-    "id": 18,
-    "display_id": 6,
-    "content_type": "solutions",
-    "title": "Smart Inventory Management",
-    "published_at": "2026-03-07T15:17:00.795304"
-  },
-  {
-    "id": 19,
-    "display_id": 7,
-    "content_type": "solutions",
-    "title": "Predictive Maintenance Analytics",
-    "published_at": "2026-03-07T15:17:00.797078"
-  },
-  {
-    "id": 20,
-    "display_id": 8,
-    "content_type": "solutions",
-    "title": "Environmental Compliance Suite",
-    "published_at": "2026-03-07T15:17:00.799143"
+    "title": "The Role of AI in Modern Field Operations",
+    "published_at": "2026-03-07T21:14:31.179128"
   },
   {
     "id": 21,
+    "display_id": 5,
+    "content_type": "cta",
+    "title": "Explore Our Solutions",
+    "published_at": "2026-03-07T21:58:25.380352",
+    "slug": "solutions-inquiry"
+  },
+  {
+    "id": 6,
+    "display_id": 6,
+    "content_type": "solutions",
+    "title": "Smart Inventory Management",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 15,
+    "display_id": 6,
+    "content_type": "media",
+    "title": "Compliance Reimagined: Digital Tools & Reporting",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 7,
+    "display_id": 7,
+    "content_type": "solutions",
+    "title": "Predictive Maintenance Analytics",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 8,
+    "display_id": 8,
+    "content_type": "solutions",
+    "title": "Environmental Compliance Suite",
+    "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 9,
     "display_id": 9,
     "content_type": "solutions",
     "title": "SynDojo Drone Inspections and Simulator Training",
-    "published_at": "2026-03-07T15:17:00.801286"
+    "published_at": "2026-03-07T21:14:31.179128"
   }
 ]
