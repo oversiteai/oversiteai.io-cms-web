@@ -40,13 +40,6 @@
     "published_at": "2026-03-07T15:53:01.353025"
   },
   {
-    "id": 22,
-    "display_id": 1,
-    "content_type": "services",
-    "title": "A Services Article",
-    "published_at": "2026-03-07T18:53:54.722422+00:00"
-  },
-  {
     "id": "header-contact",
     "display_id": 2,
     "content_type": "cta",
@@ -73,13 +66,6 @@
     "content_type": "solutions",
     "title": "Bluetooth Flow Meter Automation",
     "published_at": "2026-03-07T15:17:00.786121"
-  },
-  {
-    "id": 23,
-    "display_id": 2,
-    "content_type": "services",
-    "title": "Another ARticle",
-    "published_at": "2026-03-07T18:53:54.722422+00:00"
   },
   {
     "id": "hero-talk-to-us",
