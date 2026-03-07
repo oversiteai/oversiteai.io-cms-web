@@ -1,0 +1,24 @@
+{
+  "id": 23,
+  "display_id": 2,
+  "content_type": "services",
+  "status": "published",
+  "version": 4,
+  "published_at": "2026-03-07T18:53:54.722422+00:00",
+  "created_at": "2026-03-07T18:47:03.474846",
+  "updated_at": "2026-03-07T18:53:44.584663",
+  "author": "bilbo",
+  "body": "Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel&nbsp;<img src=\"http://localhost:5000/api/v1/images/file/services/2/digital-custody-3-panel-2-1772909595940.png\" data-src=\"/api/v1/images/file/services/2/digital-custody-3-panel-2-1772909595940.png\" alt=\"\" style=\"text-align: center; font-size: 0.9vw;\"><span style=\"font-size: 0.9vw;\">wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel&nbsp;</span><img src=\"http://localhost:5000/api/v1/images/file/services/2/istockphoto-1465157700-612x612-1772909240965.jpg\" data-src=\"/api/v1/images/file/services/2/istockphoto-1465157700-612x612-1772909240965.jpg\" alt=\"\" width=\"50px\" style=\"font-size: 0.9vw; text-align: center;\"><br>",
+  "cardImage": "/content/articles/services/2/digital-custody-3-panel-2-1772909595940.png",
+  "detailImage": "/content/articles/services/2/istockphoto-1465157700-612x612-1772909240965.jpg",
+  "featured": false,
+  "images": [
+    "/content/articles/services/2/istockphoto-1465157700-612x612-1772909240965.jpg",
+    "/content/articles/services/2/digital-custody-3-panel-2-1772909595940.png"
+  ],
+  "readTime": "5 min",
+  "subtitle": "Love this stuff",
+  "tags": [],
+  "teaser": "WOW IT works",
+  "title": "Another ARticle"
+}
