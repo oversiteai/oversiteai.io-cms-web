@@ -1,0 +1,26 @@
+{
+  "id": 9,
+  "display_id": 3,
+  "content_type": "media",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-03-07T15:17:00.777983",
+  "created_at": "2026-03-07T15:17:00.778243",
+  "updated_at": "2026-03-07T15:17:00.778245",
+  "title": "Predictive Maintenance: From Reactive to Proactive Operations",
+  "subtitle": "Predictive maintenance is helping oil and gas companies move from reactive repairs to proactive equipment management.",
+  "teaser": "Predictive maintenance is helping oil and gas companies move from reactive repairs to proactive equipment management.",
+  "images": [
+    "/content/articles/media/3/predictive-maintenance.png"
+  ],
+  "body": "",
+  "author": "Marcus Rodriguez",
+  "readTime": "6 min read",
+  "tags": [
+    "Predictive Maintenance",
+    "Asset Management"
+  ],
+  "featured": false,
+  "detailImage": "/content/articles/media/3/predictive-maintenance.png",
+  "cardImage": "/content/articles/media/3/predictive-maintenance.png"
+}

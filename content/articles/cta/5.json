@@ -1,0 +1,34 @@
+{
+  "id": 5,
+  "display_id": 5,
+  "content_type": "cta",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-03-07T15:17:00.770951",
+  "created_at": "2026-03-07T15:17:00.771166",
+  "updated_at": "2026-03-07T15:17:00.771167",
+  "title": "Explore Our Solutions",
+  "subtitle": "Learn how our AI can address your specific challenges",
+  "prefillMessage": "I'm exploring AI solutions for our energy operations. I'm particularly interested in...",
+  "submitButtonText": "Get Started",
+  "successMessage": "Thanks for your interest! An expert will contact you soon.",
+  "fields": {
+    "name": {
+      "placeholder": "Full Name",
+      "required": true
+    },
+    "email": {
+      "placeholder": "Business Email",
+      "required": true
+    },
+    "phone": {
+      "placeholder": "Contact Number",
+      "required": false
+    },
+    "message": {
+      "placeholder": "Which solutions interest you most?",
+      "required": true
+    }
+  },
+  "images": []
+}

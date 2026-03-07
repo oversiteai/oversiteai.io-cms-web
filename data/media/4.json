@@ -1,0 +1,14 @@
+{
+  "id": 4,
+  "title": "Digital Compliance: Automation & Reporting",
+  "subtitle": "Discover how digital tools simplify regulatory compliance and lessen administrative burdens.",
+  "teaser": "Discover how digital tools simplify regulatory compliance and lessen administrative burdens.",
+  "images": ["data/media/4/digital-compliance.png"],
+  "body": "",
+  "author": "Marcus Rodriguez",
+  "readTime": "6 min read",
+  "tags": ["Compliance", "Automation"],
+  "featured": false,
+  "detailImage": "data/media/4/digital-compliance.png",
+  "cardImage": "data/media/4/digital-compliance.png"
+}

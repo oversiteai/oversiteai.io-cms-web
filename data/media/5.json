@@ -1,0 +1,14 @@
+{
+  "id": 5,
+  "title": "The Role of AI in Modern Field Operations",
+  "subtitle": "Discover how artificial intelligence is revolutionizing field operations, from route optimization to predictive analytics.",
+  "teaser": "Discover how artificial intelligence is revolutionizing field operations, from route optimization to predictive analytics.",
+  "images": ["data/media/5/ai-field-operations.png"],
+  "body": "",
+  "author": "Marcus Rodriguez",
+  "readTime": "6 min read",
+  "tags": ["AI", "Machine Learning"],
+  "featured": false,
+  "detailImage": "data/media/5/ai-field-operations.png",
+  "cardImage": "data/media/5/ai-field-operations.png"
+}

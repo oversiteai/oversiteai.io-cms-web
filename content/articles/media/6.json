@@ -1,0 +1,25 @@
+{
+  "id": 12,
+  "display_id": 6,
+  "content_type": "media",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-03-07T15:17:00.782338",
+  "created_at": "2026-03-07T15:17:00.782589",
+  "updated_at": "2026-03-07T15:17:00.782590",
+  "title": "Compliance Reimagined: Digital Tools & Reporting",
+  "subtitle": "See how quantum-ready infrastructure is boosting security and efficiency in oil and gas operations.",
+  "teaser": "See how quantum-ready infrastructure is boosting security and efficiency in oil and gas operations.",
+  "images": [
+    "/content/articles/media/6/compliance-reimagined.png"
+  ],
+  "body": "",
+  "author": "Marcus Rodriguez",
+  "readTime": "6 min read",
+  "tags": [
+    "Technology"
+  ],
+  "featured": false,
+  "detailImage": "/content/articles/media/6/compliance-reimagined.png",
+  "cardImage": "/content/articles/media/6/compliance-reimagined.png"
+}

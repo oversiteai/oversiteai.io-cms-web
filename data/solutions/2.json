@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "title": "Bluetooth Flow Meter Automation",
+  "subtitle": "Wireless Data Capture for Fluid Management",
+  "teaser": "Integrate directly with Bluetooth-enabled flow meters for accurate volume readings at pickup and disposal points.",
+  "images": [
+    "data/solutions/2/bluetooth1-1754226803979.png",
+    "data/solutions/2/openart-image-qigwaabu-1754666609263-raw-1754666757088.png"
+  ],
+  "body": "<h3>Bluetooth Flow Meter Automation: Real-Time, Handsfree\nVolume Accountability</h3><h3><span>Precision and Trust for Every Barrel Moved</span></h3><p>Manual\nfluid transfer logs are vulnerable—prone to error, delay, and even\nfalsification. Our Bluetooth-enabled automation delivers airtight volume\naccountability for every UIC report and Salt Water Disposal (SWD) ticket\nstraight from the source, with zero manual input or risk of data tampering.</p><h3>Why\nSwitch to Automated Flow Meter Integration?</h3><p>Every\ngallon must add up.&nbsp;Regulatory compliance in the oilfield is\nnon-negotiable. Undercounts or discrepancies invite failed audits, revoked\npermits, and costly fines. Our platform closes these gaps for good, capturing\nfluid transfer data in real time—direct from each sensor—backed by\ncryptographic security and precise GPS geotagging.</p><p><span><b>How It Works</b></span></p><ul>\n <li><span>Seamless BLE\n     Connection: The mobile app automatically detects, authenticates, and pairs\n     with nearby flow meters as the truck arrives on site. No scanning or\n     pairing by hand. Only pre-approved meters at permitted locations are\n     accepted.</span></li>\n <li><span>Live,\n     Tamper-Proof Logging: Cumulative volume, flow rate, and totalizer readings\n     are streamed directly from the meter using secure GATT Bluetooth profiles.\n     Each data point is timestamped and cryptographically signed, creating an\n     immutable audit trail.</span></li>\n <li><span>True “Handsfree”\n     Operation: Geofencing triggers data collection as soon as the truck enters\n     a site. No start/stop button, no manual entry, records mirror real-world\n     activity, driven by location and system intelligence.</span></li>\n <li><span>Reliable in the\n     Real World: High-vibration? Spotty connection? No problem. The app caches\n     prior readings, interpolates minor disconnects, and alerts drivers to\n     major interruptions so no data is lost. Everything is saved for future\n     review and regulatory defense.</span></li></ul><p><span><b>Key Advantages</b></span></p><ul>\n <li><span>100% Automated,\n     0% Manual Error</span></li>\n <li><span>Real-Time\n     Accuracy: No lag, no re-entry, instant notifications</span></li>\n <li><span>Tamper-Resistant:\n     Readings come straight from the sensor, with no override path</span></li>\n <li><span>Granular\n     Visibility: Second-by-second fluid movement curves, ideal for anomaly\n     detection and audit review</span></li>\n <li><span>Universal BLE\n     Support: Works with nearly all modern Bluetooth-enabled flow meters,\n     configurable for your hardware</span></li>\n <li><span>Audit-Ready\n     Compliance: Each transfer fully traceable, provable, and legally\n     defensible</span></li></ul><p><span><b>Tangible Results</b></span></p><ul>\n <li><span>70%+ reduction\n     in data entry time</span></li>\n <li><span>Complete\n     elimination of transcription and logging errors</span></li>\n <li><span>Millions of\n     gallons tracked with 99.9% accuracy</span></li></ul>\n\n<h3>The Future of Field Accountability</h3>\n\n<p>In an industry where accuracy is compliance and trust is\neverything, Bluetooth flow meter automation sets the bar for operational\nexcellence. Eliminate paperwork, close compliance gaps, and make every ounce of\nfluid movement visible from the field, straight to the regulators.</p>\n\n<p>Ready for seamless, auditable fluid transfers? Discover how\nour platform brings real-time automation, accuracy, and peace of mind to every\nfield operation. </p>",
+  "author": "",
+  "readTime": "",
+  "tags": [
+    "Bluetooth",
+    "Flow Meters",
+    "Automation",
+    "Data Accuracy"
+  ],
+  "primaryImage": "data/solutions/2/7badfabc-74af-45db-b376-bc598743dd00-2-1753979781557.jpg",
+  "featured": true,
+  "cardImage": "data/solutions/2/bluetooth1-1754226803979.png",
+  "detailImage": "data/solutions/2/openart-image-qigwaabu-1754666609263-raw-1754666757088.png"
+}
