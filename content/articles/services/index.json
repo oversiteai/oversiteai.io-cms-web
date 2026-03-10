@@ -3,7 +3,7 @@
     "id": 22,
     "display_id": 1,
     "content_type": "services",
-    "status": "staged",
+    "status": "published",
     "version": 8,
     "published_at": "2026-03-07T21:14:31.179128",
     "created_at": "2026-03-07T21:06:34.438545",
@@ -31,11 +31,11 @@
     "id": 23,
     "display_id": 2,
     "content_type": "services",
-    "status": "published",
-    "version": 2,
+    "status": "staged",
+    "version": 3,
     "published_at": "2026-03-07T21:08:14.855960",
     "created_at": "2026-03-07T21:06:34.455639",
-    "updated_at": "2026-03-07T23:28:33.181852",
+    "updated_at": "2026-03-10T13:56:35.575036",
     "author": "bilbo",
     "body": "Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel&nbsp;<img src=\"/content/articles/services/2/digital-custody-3-panel-2-1772909595940.png\" data-src=\"/content/articles/services/2/digital-custody-3-panel-2-1772909595940.png\" alt=\"\" style=\"text-align: center; font-size: 0.9vw;\"><span style=\"font-size: 0.9vw;\">wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel Wel wel wel&nbsp;</span><img src=\"/content/articles/services/2/istockphoto-1465157700-612x612-1772909240965.jpg\" data-src=\"/content/articles/services/2/istockphoto-1465157700-612x612-1772909240965.jpg\" alt=\"\" width=\"50px\" style=\"font-size: 0.9vw; text-align: center;\"><br>",
     "cardImage": "/content/articles/services/2/digital-custody-3-panel-2-1772909595940.png",
@@ -49,6 +49,6 @@
     "subtitle": "Love this stuff",
     "tags": [],
     "teaser": "WOW IT works",
-    "title": "Another ARticle1"
+    "title": "Another Article1"
   }
 ]
