@@ -63,13 +63,6 @@
     "slug": "header-contact"
   },
   {
-    "id": 23,
-    "display_id": 2,
-    "content_type": "services",
-    "title": "Another Article1",
-    "published_at": "2026-03-07T21:08:14.855960"
-  },
-  {
     "id": 3,
     "display_id": 3,
     "content_type": "solutions",
@@ -90,13 +83,6 @@
     "title": "Let's Transform Your Operations",
     "published_at": "2026-03-07T21:58:25.380352",
     "slug": "hero-talk-to-us"
-  },
-  {
-    "id": 24,
-    "display_id": 3,
-    "content_type": "services",
-    "title": "test2",
-    "published_at": null
   },
   {
     "id": 4,
