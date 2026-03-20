@@ -7,18 +7,6 @@
     "published_at": "2026-03-07T21:14:31.179128"
   },
   {
-    "id": 16,
-    "display_id": 1,
-    "content_type": "featured",
-    "title": {
-      "text": "Meet ",
-      "highlight": "PROJECT DARKWATER",
-      "highlightClass": "gradient-text"
-    },
-    "published_at": "2026-03-07T21:14:31.179128",
-    "slug": "darkwater"
-  },
-  {
     "id": 17,
     "display_id": 1,
     "content_type": "cta",
@@ -32,6 +20,18 @@
     "content_type": "solutions",
     "title": "Geofencing and GPS Precision",
     "published_at": "2026-03-07T21:14:31.179128"
+  },
+  {
+    "id": 16,
+    "display_id": 1,
+    "content_type": "featured",
+    "title": {
+      "highlight": "OverSite Power",
+      "highlightClass": "gradient-text",
+      "text": "Introducing "
+    },
+    "published_at": "2026-03-07T21:14:31.179128",
+    "slug": "OverSite Power"
   },
   {
     "id": 2,
@@ -98,6 +98,13 @@
     "title": "See OversiteAI in Action",
     "published_at": "2026-03-07T21:58:25.380352",
     "slug": "operations-demo"
+  },
+  {
+    "id": 25,
+    "display_id": 4,
+    "content_type": "services",
+    "title": "OverSite Power ",
+    "published_at": null
   },
   {
     "id": 5,
