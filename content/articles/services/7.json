@@ -1,0 +1,27 @@
+{
+  "id": 33,
+  "display_id": 7,
+  "content_type": "services",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-05T17:17:59.171342",
+  "created_at": "2026-05-05T17:17:59.171740",
+  "updated_at": "2026-05-05T17:17:59.171742",
+  "author": "OverSite Services",
+  "subtitle": "Containment to closeout.",
+  "teaser": "End-to-end spill response: initial containment, cleanup, and the documentation regulators actually want to see.",
+  "title": "Spill Remediation",
+  "body": "<h3>End-to-end response, with closeout regulators accept</h3>\n<p>Spill remediation isn't done when the surface looks clean—it's done when the file is closed. We run remediation as a <strong>complete project</strong>: assessment through containment, cleanup, regulatory thresholds, disposal manifests, and final documentation that holds up under audit.</p>\n<h3>What we deliver</h3>\n<ul>\n<li><strong>Initial site assessment and containment</strong>—size up the release, stop the spread, secure the perimeter.</li>\n<li><strong>Soil and water remediation aligned with regulatory thresholds</strong>—work to defensible criteria, not just \"looks better.\"</li>\n<li><strong>Disposal manifests and chain-of-custody tracking</strong>—every load accounted for, every signature in the right place.</li>\n<li><strong>Final closeout package built for audit readiness</strong>—the file regulators actually want to see.</li>\n</ul>\n<h3>Where it fits</h3>\n<p>Pad incidents, pipeline events, terminal and storage releases, transportation events. Wherever a hydrocarbon or produced-fluid release needs to move from incident to closed file.</p>\n<h3>Why operators bring us in</h3>\n<p>Speed matters in the first hours. Documentation matters in the last hours. We're built for both: fast on the response, disciplined through cleanup, and structured at closeout. Your environmental and legal teams get a packet they can defend.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": false,
+  "images": [],
+  "readTime": "3 min read",
+  "tags": [
+    "Spill remediation",
+    "Environmental",
+    "Compliance",
+    "Closeout",
+    "Audit"
+  ]
+}

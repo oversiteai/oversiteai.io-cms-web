@@ -1,0 +1,31 @@
+{
+  "id": 27,
+  "display_id": 1,
+  "content_type": "services",
+  "status": "published",
+  "version": 2,
+  "published_at": "2026-05-05T17:17:59.081295",
+  "created_at": "2026-05-05T17:17:59.082671",
+  "updated_at": "2026-05-18T16:39:59.897626",
+  "author": "OverSite AI",
+  "body": "<h3>Resiliency, power quality, uptime and economics that show up on the P&amp;L</h3>\n<p>Oil and gas operators are electrifying the field: electric frac spreads, larger camp blocks, more automation on production, and more intermittent or imported power at the fence line. That shift raises the bar for bus stability, power quality, and uptime outcomes often associated with advanced storage programs. OverSiteAI Power pursues those same outcomes from the prime-mover and microgrid side: dependable, gas-fueled generation and protection architecture sized for real pad loads, so your equipment sees clean voltage and frequency through step changes not just on day one, but across the whole campaign.</p>\n<h3>Natural gas prime power for the electrified pad</h3>\n<p>We package conditioned field gas or pipeline gas into generation that can shoulder electric frac support, large rotating loads, artificial lift, compression, and long-duration production&nbsp;displacing diesel where molecules are available and reducing truck traffic, rack exposure, and stack impact. Protection, grounding, and switchgear choices are built for simul-fracs, zipper moves, and winter ops, not lab demos. The goal is simple: keep the bus where your VFDs, pumps, and controls expect it, so production minutes and completion hours are not lost to power drama.</p>\n<h3>Power quality that protects equipment life</h3>\n<ul>\n<li><strong>Voltage and frequency discipline</strong> — Ride through the harmonic-rich, stair-step load profiles that come with modern spreads.</li>\n<li><strong>Coordination with your electrification roadmap</strong> — Designs stay coherent when you add storage, utility import/export, or renewables tie-in; we do not treat the generator string as a permanent island in a vacuum.</li>\n<li><strong>Visibility</strong> — Telemetry lands where your engineers already work so trends, anomalies, and events are visible before they become callouts.</li>\n</ul>\n<h3>Safer operations, fewer “go fix the bus” moments</h3>\n<ul>\n<li><strong>Logistics risk</strong> — Less distillate on the road, fewer midnight fuel windows fighting sand and water gates.</li>\n<li><strong>Controlled recovery</strong> — Sequencing and labeling that make restarts predictable after faults or weather so fewer adhoc trips during storms or off shift hours.</li>\n<li><strong>One narrative for Ops and Finance</strong> — The same metered story for AFE, emissions, and partner reporting.</li>\n</ul>\n<h3>Cash flow, not just kilowatts</h3>\n<p>We help you model fuel mix, heat rate, and contingency diesel with transparent assumptions, so savings from gas substitution, efficiency, and avoided downtime are defensible in the room where approvals happen. Where programs participate in demand response, peak management, or behind the meter strategies, we align generation dispatch and metering so you are not leaving revenue or credits on the table because the data never made it out of the field.</p>\n<h3>How we start</h3>\n<p>A practical 72-hour power study: gas availability, forecasted load steps, harmonic budget, storage or utility interfaces (if any), and tie-in sequencing. Then a joint mobilization plan, commissioning checklist, and hand back criteria so turnover is boring, in the best way.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": true,
+  "images": [
+    "/content/articles/services/4/powerholder-1773968859482.png"
+  ],
+  "readTime": "8 min read",
+  "subtitle": "Pad power for the electrified oil field—resiliency, power quality, and uptime backed by gas-fueled prime generation and microgrid-grade engineering.",
+  "tags": [
+    "Microgrid",
+    "Power quality",
+    "Uptime",
+    "Electrification",
+    "Natural gas",
+    "ESG",
+    "Prime power"
+  ],
+  "teaser": "Stabilize the bus, protect equipment life, displace diesel, and keep economics and ESG narratives aligned from completions through production.",
+  "title": "OverSiteAI Power"
+}

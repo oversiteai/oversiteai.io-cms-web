@@ -1,14 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="subtle">
   <head>
+    <script>
+      /* Site uses a single fixed theme ("subtle" — the current dark design).
+         Clear any legacy theme key so nothing drifts between sessions. */
+      (function () {
+        try { localStorage.removeItem('oversiteai-theme'); } catch (e) {}
+        document.documentElement.setAttribute('data-theme', 'subtle');
+      })();
+    </script>
+    <script>
+      /* HashRouter: if there is no route in the hash yet, normalize to "#/". */
+      (function () {
+        try {
+          var h = window.location.hash;
+          if (h && h.length > 1 && h !== '#') return;
+          window.history.replaceState(null, '', window.location.pathname + window.location.search + '#/');
+        } catch (e) {}
+      })();
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" href="/oversiteai.io-cms-web/favicon.svg" type="image/svg+xml" sizes="any">
     <link rel="icon" href="/oversiteai.io-cms-web/favicon-dark.svg" type="image/svg+xml" sizes="any" media="(prefers-color-scheme: dark)">
     <link rel="icon" href="/oversiteai.io-cms-web/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OverSiteAI | Real-Time AI Solutions for Oil &amp; Gas</title>
-    <script type="module" crossorigin src="/oversiteai.io-cms-web/assets/index-DAGMiYXZ.js"></script>
-    <link rel="stylesheet" crossorigin href="/oversiteai.io-cms-web/assets/index-eG8qNdP0.css">
+    <script type="module" crossorigin src="/oversiteai.io-cms-web/assets/index-DozEI_j8.js"></script>
+    <link rel="stylesheet" crossorigin href="/oversiteai.io-cms-web/assets/index-B2U4MvAk.css">
   </head>
   <body>
     <div id="root"></div>

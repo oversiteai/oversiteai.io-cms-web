@@ -1,0 +1,27 @@
+{
+  "id": 35,
+  "display_id": 9,
+  "content_type": "services",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-05T17:17:59.197022",
+  "created_at": "2026-05-05T17:17:59.197437",
+  "updated_at": "2026-05-05T17:17:59.197439",
+  "author": "OverSite Services",
+  "subtitle": "Protect the wells you're already producing.",
+  "teaser": "Proactive monitoring during frac ops to identify, document, and respond to pressure communication risks — before they cost you a producer.",
+  "title": "Defensive Frac & Offset Well Loading",
+  "body": "<h3>Protecting producing wells during nearby frac activity</h3>\n<p>The economics of a frac hit are unforgiving. A communicating offset well can lose months of production, force a workover, or in the worst case, change the long-term performance of an asset that was already cash-flowing. Our defensive frac program exists for one reason: <strong>protect the wells you're already producing</strong> while frac operations move through the area.</p>\n<h3>What we deliver</h3>\n<ul>\n<li><strong>Pre-frac offset well assessment and load planning</strong>—identify risk wells, document baseline conditions, plan loading strategy with the operator.</li>\n<li><strong>Real-time pressure monitoring during operations</strong>—surface pressure, casing pressure, and flow indicators tracked through the frac campaign.</li>\n<li><strong>Anomaly detection with rapid escalation</strong>—pressure communication signatures surface as alerts, not as reading-list items at the end of the shift.</li>\n<li><strong>Documentation packet supporting regulatory and post-frac analysis</strong>—the record your reservoir engineering and legal teams need.</li>\n</ul>\n<h3>Where it fits</h3>\n<p>Multi-well pad fracs, infill drilling near producing wells, and any operation where a producing asset sits inside the influence zone of upcoming frac activity.</p>\n<h3>Why it matters</h3>\n<p>Frac hits used to be discovered after the fact. Defensive frac programs catch the signature in real time, document what happened, and give engineering and legal a defensible record—whether the goal is to mitigate, recompense, or simply prove what occurred.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": false,
+  "images": [],
+  "readTime": "4 min read",
+  "tags": [
+    "Defensive frac",
+    "Offset wells",
+    "Frac monitoring",
+    "Pressure communication",
+    "Production protection"
+  ]
+}

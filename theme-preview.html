@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Theme preview</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      background: #111;
+      color: #e2e8f0;
+    }
+    .page-title {
+      padding: 1rem 1.25rem;
+      font-size: 0.875rem;
+      border-bottom: 1px solid #333;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      min-height: calc(100vh - 48px);
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    .col {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .col:last-child { border-right: none; }
+    h2 {
+      margin: 0;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--Text);
+    }
+    .tag {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--Gray);
+    }
+    .swatches {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .sw {
+      width: 3.5rem;
+      height: 2.5rem;
+      border-radius: 6px;
+      border: 1px solid var(--Border);
+    }
+    .sw span {
+      display: block;
+      font-size: 0.55rem;
+      margin-top: 0.35rem;
+      color: var(--Gray);
+    }
+    .mock-page {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--Border);
+      min-height: 220px;
+    }
+    .mock-header {
+      height: 2.75rem;
+      background: var(--Dark-Base);
+      border-bottom: 1px solid var(--Border);
+      display: flex;
+      align-items: center;
+      padding: 0 0.75rem;
+      font-size: 0.7rem;
+      color: var(--Text);
+    }
+    .mock-header b { color: var(--White); font-weight: 600; }
+    .mock-body {
+      flex: 1;
+      background: var(--Dark-Secondary);
+      padding: 1rem;
+    }
+    .mock-card {
+      background: var(--Dark-BG);
+      border: 1px solid var(--Border);
+      border-radius: 8px;
+      padding: 0.85rem;
+      font-size: 0.8rem;
+      color: var(--Text);
+      line-height: 1.45;
+    }
+    .mock-card strong { color: var(--White); }
+    .mock-accent { color: var(--Blue); font-weight: 600; }
+
+    /* Mirrors src/App.css theme tokens */
+    .t-deep {
+      --Blue: #2BB4C6;
+      --Green: #4DFFB0;
+      --Red: #FF3D66;
+      --White: #FFF;
+      --Text: #D1D5DC;
+      --Gray: #99A1AF;
+      --Dark-BG: #1B1F23;
+      --Dark-Secondary: #131619;
+      --Dark-Base: #0B0D10;
+      --Border: rgba(30, 41, 57, 0.50);
+    }
+    .t-default {
+      --Blue: #2BB4C6;
+      --Green: #4DFFB0;
+      --Red: #FF3D66;
+      --White: #f1f5f9;
+      --Text: #cbd5e1;
+      --Gray: #94a3b8;
+      --Dark-BG: #2a323c;
+      --Dark-Secondary: #222a33;
+      --Dark-Base: #1a2128;
+      --Border: rgba(148, 163, 184, 0.22);
+    }
+    .t-light {
+      --Blue: #1a8a9a;
+      --Green: #2d9960;
+      --Red: #cc2e52;
+      --White: #1a1a1a;
+      --Text: #4a5568;
+      --Gray: #718096;
+      --Dark-BG: #f7fafc;
+      --Dark-Secondary: #edf2f7;
+      --Dark-Base: #ffffff;
+      --Border: rgba(203, 213, 224, 0.50);
+    }
+  </style>
+</head>
+<body>
+  <div class="page-title">
+    Side-by-side theme tokens (same as <code>App.css</code>).
+    With Vite running: <strong>/theme-preview.html</strong>
+    &nbsp;·&nbsp; In dev, use the floating theme switcher on the main app for live pages.
+  </div>
+  <div class="grid">
+    <section class="col t-deep">
+      <div class="tag">data-theme deep</div>
+      <h2>Dark (deep)</h2>
+      <div class="swatches">
+        <div class="sw" style="background: var(--Dark-Base)" title="Base"></div>
+        <div class="sw" style="background: var(--Dark-Secondary)" title="Secondary"></div>
+        <div class="sw" style="background: var(--Dark-BG)" title="BG"></div>
+        <div class="sw" style="background: var(--Blue)" title="Blue"></div>
+        <div class="sw" style="background: var(--Green)" title="Green"></div>
+      </div>
+      <div class="mock-page">
+        <div class="mock-header"><b>OverSite</b>AI &nbsp;·&nbsp; <span class="mock-accent">Solutions</span></div>
+        <div class="mock-body">
+          <div class="mock-card">
+            <strong>The Future of Oil &amp; Gas Operations</strong><br />
+            Sample body copy in <span class="mock-accent">--Text</span> color. Accent links use brand blue.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="col t-default">
+      <div class="tag">data-theme default</div>
+      <h2>Dark (default)</h2>
+      <div class="swatches">
+        <div class="sw" style="background: var(--Dark-Base)"></div>
+        <div class="sw" style="background: var(--Dark-Secondary)"></div>
+        <div class="sw" style="background: var(--Dark-BG)"></div>
+        <div class="sw" style="background: var(--Blue)"></div>
+        <div class="sw" style="background: var(--Green)"></div>
+      </div>
+      <div class="mock-page">
+        <div class="mock-header"><b>OverSite</b>AI &nbsp;·&nbsp; <span class="mock-accent">Solutions</span></div>
+        <div class="mock-body">
+          <div class="mock-card">
+            <strong>The Future of Oil &amp; Gas Operations</strong><br />
+            Same layout, lifted grays: less pure black, slightly brighter type.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="col t-light">
+      <div class="tag">data-theme light</div>
+      <h2>Light</h2>
+      <div class="swatches">
+        <div class="sw" style="background: var(--Dark-Base)"></div>
+        <div class="sw" style="background: var(--Dark-Secondary)"></div>
+        <div class="sw" style="background: var(--Dark-BG)"></div>
+        <div class="sw" style="background: var(--Blue)"></div>
+        <div class="sw" style="background: var(--Green)"></div>
+      </div>
+      <div class="mock-page">
+        <div class="mock-header"><b>OverSite</b>AI &nbsp;·&nbsp; <span class="mock-accent">Solutions</span></div>
+        <div class="mock-body">
+          <div class="mock-card">
+            <strong>The Future of Oil &amp; Gas Operations</strong><br />
+            Light surfaces; headings use dark <code>--White</code> token (inverted).
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

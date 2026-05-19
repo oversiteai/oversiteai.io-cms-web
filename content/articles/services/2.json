@@ -1,0 +1,29 @@
+{
+  "id": 28,
+  "display_id": 2,
+  "content_type": "services",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-05T17:17:59.096469",
+  "created_at": "2026-05-05T17:17:59.097079",
+  "updated_at": "2026-05-05T17:17:59.097082",
+  "author": "OverSite AI",
+  "subtitle": "100-foot-class towers delivering on the order of 2.5 million lumens—night operations with daylight discipline.",
+  "teaser": "Even, specifiable pad illumination for SIMOPS, walkdowns, and gate security—paired with glare control and rapid skidding.",
+  "title": "OverSiteAI Field Lighting",
+  "body": "<h3>Light that matches the pace of modern pads</h3>\n<p>OverSiteAI Field Lighting delivers <strong>tower packages on the order of 100 feet</strong> of mast height and <strong>roughly 2.5 million lumens</strong>—enough to wash multi-well completions, SIMOPS corridors, and sand logistics lanes with even, specifiable lux—without turning night shift into a glare hazard.</p>\n<h3>Why super-pads need super-lumens</h3>\n<ul>\n<li><strong>Walkdown velocity</strong> — Crews see connections, slips, and trip hazards the first pass—not the third.</li>\n<li><strong>CCTV and gate assurance</strong> — Cameras capture usable plates and faces instead of muddy silhouettes.</li>\n<li><strong>Neighbor management</strong> — Aimable arrays and zoning keep candela on lease road and rig floor, not the fence line.</li>\n<li><strong>Weather realism</strong> — Guy patterns, ice assumptions, and wind ratings baked into every plan—not bolted on after the first front.</li>\n</ul>\n<h3>Integrated with power strategy</h3>\n<p>Lighting load gets coordinated with <strong>OverSiteAI Power</strong> so fuel priority, harmonic budget, and breaker labeling stay coherent. Rapid skidding between zipper stages is choreographed with crane windows and SIMOPS maps—minimizing downtime between frac fleets.</p>\n<h3>What you receive</h3>\n<p>Photometric layout against your pad map, rig-up / rig-down checklist, and nightly lux verification protocol. If leadership wants before/after documentation for HSSE or community outreach, we package it camera-ready.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": true,
+  "images": [
+    "/images/og-field-operations-twilight.png"
+  ],
+  "readTime": "6 min read",
+  "tags": [
+    "Lighting",
+    "Lumens",
+    "SIMOPS",
+    "Night safety",
+    "Frac pad"
+  ]
+}

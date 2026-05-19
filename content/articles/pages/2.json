@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "display_id": 2,
+  "content_type": "pages",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-18T15:08:19.675124+00:00",
+  "created_at": "2026-05-05T16:41:23.983677",
+  "updated_at": "2026-05-18T15:08:18.384988",
+  "title": "Solutions Page",
+  "pageKey": "solutions",
+  "header": {
+    "tag": "Solutions made for on-ground realities",
+    "titlePrefix": "Smarter Field",
+    "titleHighlight": "Solutions",
+    "paragraphs": [
+      "We built these solutions with field teams in mind, solving everyday pain points through intuitive tools, automation, and reliable data."
+    ]
+  },
+  "images": []
+}

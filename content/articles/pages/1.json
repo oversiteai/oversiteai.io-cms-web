@@ -1,0 +1,52 @@
+{
+  "id": 1,
+  "display_id": 1,
+  "content_type": "pages",
+  "status": "modified",
+  "version": 15,
+  "published_at": "2026-05-18T11:35:58.403154",
+  "created_at": "2026-05-04T18:24:25.290228",
+  "updated_at": "2026-05-18T15:45:43.549146",
+  "believe": {
+    "eyebrow": "WHAT WE BELIEVE",
+    "image": "images/believe-wellsite-sunset.png",
+    "items": [
+      {
+        "body": "Technology should solve real problems. We build tools that are useful, reliable, and built for the way operations actually work.",
+        "title": "Practical Technology"
+      },
+      {
+        "body": "We are committed to ethical AI, transparency, and systems that support human decision-making and accountability.",
+        "title": "Responsible Innovation"
+      },
+      {
+        "body": "We believe the future of energy depends on cleaner, more efficient, and better-managed operations across the entire lifecycle.",
+        "title": "Smarter Energy Operations"
+      }
+    ]
+  },
+  "commitment": {
+    "body": "We are committed to helping the energy industry operate more efficiently, reduce waste, and improve environmental performance where possible. Our technology supports cleaner operations, stronger compliance, and better stewardship of the resources we all depend on.",
+    "eyebrow": "OUR COMMITMENT",
+    "image": "images/og-processing-facility-dusk.png",
+    "title": "Committed to a better future\nfor Industrial Operations"
+  },
+  "hero": {
+    "eyebrow": "ABOUT US",
+    "image": "images/about-hero.png",
+    "lede": "OverSiteAI brings together oilfield experience, practical AI, sensors, and operational software to help energy operators run smarter, safer, and more efficient Operations.",
+    "title": "Built in the Field.\nDesigned for what comes next."
+  },
+  "pageKey": "about",
+  "title": "About Page",
+  "who": {
+    "eyebrow": "WHO WE ARE",
+    "image": "images/field-experience-rig.png",
+    "paragraphs": [
+      "OverSiteAI was built at the intersection of oilfield experience and modern industrial technology. We understand the realities of field operations, production pressure, site logistics, compliance, equipment reliability, and the cost of poor visibility.",
+      "We combine generations of field knowledge with advanced capabilities in AI, sensors, and software to build systems that deliver real operational value where it matters most."
+    ],
+    "title": "Field experience meets modern technology"
+  },
+  "images": []
+}

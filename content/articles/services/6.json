@@ -1,0 +1,27 @@
+{
+  "id": 32,
+  "display_id": 6,
+  "content_type": "services",
+  "status": "published",
+  "version": 2,
+  "published_at": "2026-05-05T17:17:59.159170",
+  "created_at": "2026-05-05T17:17:59.159616",
+  "updated_at": "2026-05-18T16:41:06.427965",
+  "author": "OverSite Services",
+  "body": "<h3>When something goes wrong, time is the variable that matters</h3>\n<p>Spills, overflows, and unplanned events don't keep business hours. The longer the response window, the bigger the environmental footprint, the deeper the regulatory exposure, and the more non-productive time burned. Our gap vac operation is built for rapid mobilization with disciplined execution—a fast on-site response that keeps both the field and the closeout under control.</p>\n<h3>What we deliver</h3>\n<ul>\n<li><strong>Rapid dispatch for time-critical events</strong>—you call, we mobilize, with clear ETAs and an on-site lead identified before arrival.</li>\n<li><strong>Containment, recovery, and disposal coordinated end-to-end</strong>—you get one point of accountability instead of a phone tree.</li>\n<li><strong>Field documentation built to support HSE reporting</strong>—what was contained, when, by whom, and where it went.</li>\n<li><strong>Crew handoff aligned with your safety lead</strong>—our team integrates with your incident command, not around it.</li>\n</ul>\n<h3>Where it fits</h3>\n<p>Tank overflows, line breaks, frac spread response, completions cleanup, production location events. Any situation where minutes matter and the paper trail matters too.</p>\n<h3>What you get back</h3>\n<p>Containment outcome, environmental exposure minimized, NPT capped, and a documentation packet that holds up to internal review and regulatory inquiry.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": false,
+  "images": [],
+  "readTime": "3 min read",
+  "subtitle": "Rapid response. Less downtime.",
+  "tags": [
+    "Gap vac",
+    "Spill response",
+    "Emergency",
+    "Environmental",
+    "HSE"
+  ],
+  "teaser": "On-demand vacuum services for spills, overflows, and emergencies. Fast mobilization that keeps environmental exposure and NPT to a minimum.",
+  "title": "Gap Vacs"
+}

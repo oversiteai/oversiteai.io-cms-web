@@ -1,0 +1,27 @@
+{
+  "id": 34,
+  "display_id": 8,
+  "content_type": "services",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-05T17:17:59.183650",
+  "created_at": "2026-05-05T17:17:59.184058",
+  "updated_at": "2026-05-05T17:17:59.184060",
+  "author": "OverSite Services",
+  "subtitle": "Visibility without permanent infrastructure.",
+  "teaser": "Short- or long-term smart camera deployment for frac sites, yards, SWDs, and remote locations. Verification, incident review, and oversight on demand.",
+  "title": "Smart Camera Rentals",
+  "body": "<h3>Visibility on demand, without the infrastructure cost</h3>\n<p>Most operators don't need permanent cameras at every location—they need <strong>visibility for the duration of the job</strong>. Our smart camera rental program puts connected camera systems on your sites for as long as you need them, then takes them off when the project ends. No permanent install, no infrastructure project, no orphaned hardware after the campaign.</p>\n<h3>What we deliver</h3>\n<ul>\n<li><strong>Connected camera systems with live monitoring and recorded review</strong>—mobile-accessible, cloud-backed, no NVR closet required.</li>\n<li><strong>Flexible deployment durations</strong>—project-based, monthly, or open-ended. Scale up at job kickoff and demobilize at closeout.</li>\n<li><strong>AI-assisted detection for high-priority events</strong>—motion, intrusion, and anomaly alerts surfaced through the platform instead of buried in 30 hours of footage.</li>\n<li><strong>No permanent infrastructure investment required</strong>—rental model means no capex, no install crews, no commissioning project.</li>\n</ul>\n<h3>Where it fits</h3>\n<p>Frac sites, equipment yards, SWDs, lay-down areas, and remote production. Anywhere temporary visibility, security, or incident review is worth more than a permanent install.</p>\n<h3>Use cases</h3>\n<p>Theft and trespass deterrence on yards. Verification of loads in and out of pad gates. Incident review when something happens that needs to be reconstructed. Documentation footage for regulatory or partner reporting.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": false,
+  "images": [],
+  "readTime": "3 min read",
+  "tags": [
+    "Smart cameras",
+    "Visibility",
+    "Security",
+    "Incident review",
+    "Rental"
+  ]
+}

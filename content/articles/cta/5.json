@@ -1,12 +1,12 @@
 {
-  "id": 5,
+  "id": 10,
   "display_id": 5,
   "content_type": "cta",
   "status": "published",
   "version": 1,
-  "published_at": "2026-03-07T15:17:00.770951",
-  "created_at": "2026-03-07T15:17:00.771166",
-  "updated_at": "2026-03-07T15:17:00.771167",
+  "published_at": "2026-05-05T17:17:44.041546",
+  "created_at": "2026-05-05T17:17:44.042097",
+  "updated_at": "2026-05-05T17:17:44.042100",
   "title": "Explore Our Solutions",
   "subtitle": "Learn how our AI can address your specific challenges",
   "prefillMessage": "I'm exploring AI solutions for our energy operations. I'm particularly interested in...",
@@ -30,6 +30,5 @@
       "required": true
     }
   },
-  "images": [],
-  "slug": "solutions-inquiry"
+  "images": []
 }

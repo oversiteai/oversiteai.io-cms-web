@@ -1,0 +1,30 @@
+{
+  "id": 29,
+  "display_id": 3,
+  "content_type": "services",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-05T17:17:59.114579",
+  "created_at": "2026-05-05T17:17:59.115235",
+  "updated_at": "2026-05-05T17:17:59.115237",
+  "author": "OverSite AI",
+  "subtitle": "Digital documentation, load GPS, and live operational lenses for flowback, pumpdown, and every critical handoff.",
+  "teaser": "Auto-build tickets and BOLs, geotag loads, and give engineers one timeline instead of three spreadsheets.",
+  "title": "OverSiteAI Optics",
+  "body": "<h3>The digital thread for flowback, pumpdown, and everything between</h3>\n<p><strong>OverSiteAI Optics</strong> is the operations layer that replaces scattered PDFs, radio stories, and three versions of the same spreadsheet. Tickets, BOLs, gauge sheets, and shift summaries <strong>generate automatically</strong> from field events—GPS on loads and assets stitches who, what, and where into a single auditable record.</p>\n<h3>Built for the no-sleep week</h3>\n<ul>\n<li><strong>Flowback and pumpdown lenses</strong> — Stage timers, rate trends, and SIMOPS overlaps on one canvas—engineers stop reconciling CSV exports at breakfast.</li>\n<li><strong>Load traceability</strong> — Every gate exit, route, and offload tied to pad coordinates—no more “which truck was that?”</li>\n<li><strong>Exception routing</strong> — Geofence departures, rate deviations, or missed handoffs escalate to the channel that actually responds at 3 a.m.</li>\n<li><strong>Partner-ready exports</strong> — Midstream, JV, and regulatory packages drop with consistent naming, signatures, and attachments.</li>\n</ul>\n<h3>Operator-first capture</h3>\n<p>Minimal taps, offline-tolerant forms, and APIs that hydrate your data lake mean crews spend seconds—not minutes—logging reality. Optics is how you answer <em>prove it</em> when legal, partners, or the board asks what happened on pad last Tuesday.</p>\n<h3>Pilot playbook</h3>\n<p>Pick one pad workflow—pumpdown plus fluid haul, for example. We mirror it digitally in a <strong>7-day pilot</strong>, measure adoption and error rate, then scale with training kits your captains actually use.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": true,
+  "images": [
+    "/images/og-processing-facility-dusk.png"
+  ],
+  "readTime": "7 min read",
+  "tags": [
+    "Optics",
+    "Flowback",
+    "Pumpdown",
+    "GPS loads",
+    "Digital tickets",
+    "Compliance"
+  ]
+}

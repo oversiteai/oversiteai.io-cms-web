@@ -1,0 +1,27 @@
+{
+  "id": 31,
+  "display_id": 5,
+  "content_type": "services",
+  "status": "published",
+  "version": 1,
+  "published_at": "2026-05-05T17:17:59.146085",
+  "created_at": "2026-05-05T17:17:59.146594",
+  "updated_at": "2026-05-05T17:17:59.146596",
+  "author": "OverSite Services",
+  "subtitle": "Protect what's downstream.",
+  "teaser": "Turnkey filtration pod deployment for frac, flowback, and produced water. Built to reduce solids-related failures and hold consistent flow when it matters.",
+  "title": "Filter Pods",
+  "body": "<h3>Filtration that protects your real investment</h3>\n<p>The cost of a solids-related failure downstream isn't the filter media—it's the pump, the seal, the line, and the hours your spread isn't producing. Our filter pod operation is built around <strong>protecting what's downstream</strong>: sized correctly for the job, deployed turnkey, swapped on schedule, and documented in line with field activity.</p>\n<h3>What we deliver</h3>\n<ul>\n<li><strong>Filtration pods sized to job-specific flow rates</strong>—matched to solids loading, fluid characteristics, and target effluent quality.</li>\n<li><strong>Media changes coordinated with your crew schedule</strong>, so swaps don't interrupt critical operations.</li>\n<li><strong>Performance tracked with structured documentation</strong>—differential pressure, throughput, and media-life records that follow the equipment.</li>\n<li><strong>Engineered to protect downstream pumps and infrastructure</strong>—filtration is a wear-prevention strategy, not just a regulatory line item.</li>\n</ul>\n<h3>Where it fits</h3>\n<p>Frac operations, flowback events, and produced water management. Anywhere fluid quality determines the life of your downstream equipment.</p>\n<h3>Operational philosophy</h3>\n<p>Pods come with a plan: target flow, expected solids load, swap interval, and a fallback if conditions change. When the pad runs hotter than expected, our crews adjust dispatch instead of letting a media change become a failure cascade.</p>",
+  "cardImage": "",
+  "detailImage": "",
+  "featured": false,
+  "images": [],
+  "readTime": "3 min read",
+  "tags": [
+    "Filter pods",
+    "Frac",
+    "Flowback",
+    "Produced water",
+    "Equipment protection"
+  ]
+}

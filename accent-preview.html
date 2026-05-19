@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Light surface + dark accent — OverSite AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --Logo: #30DAF1;
+      --Logo-Deep: #1E9AAE;
+      --Mute: #4B5563;
+      --Fog: #8A94A3;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      font-family: 'Inter', -apple-system, system-ui, Roboto, Helvetica, sans-serif;
+      color: #0B1220;
+      background: #ECEFF3;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* ============ top bar (dark, anchors the page) ============ */
+    .top-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.95rem 1.75rem;
+      background: linear-gradient(180deg, #0B1220 0%, #0E1628 100%);
+      border-bottom: 1px solid rgba(48,218,241,0.12);
+      box-shadow: 0 10px 30px -18px rgba(11,18,32,0.55);
+      position: sticky; top: 0; z-index: 10;
+    }
+    .brand { display: flex; align-items: center; gap: 0.65rem; }
+    .brand img { height: 22px; width: auto; filter: drop-shadow(0 0 8px rgba(48,218,241,0.35)); }
+    .brand .name { font-weight: 700; font-size: 0.98rem; letter-spacing: 0.01em; color: #F5F7FA; }
+    .brand .ai {
+      background: linear-gradient(90deg, var(--Logo) 0%, var(--Logo-Deep) 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .top-bar .title { font-size: 0.75rem; color: #99A1AF; letter-spacing: 0.1em; text-transform: uppercase; }
+    .top-bar .meta { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.72rem; color: #6B7280; }
+
+    .page-intro { max-width: 960px; margin: 2rem auto 1rem; padding: 0 1.75rem; }
+    .page-intro h1 { margin: 0 0 0.5rem; font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; }
+    .page-intro p { margin: 0; font-size: 0.92rem; color: var(--Mute); line-height: 1.55; }
+    .page-intro .key {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.75rem;
+      color: var(--Fog); margin-top: 0.5rem;
+    }
+    .page-intro .key .sw { width: 10px; height: 10px; border-radius: 999px; display: inline-block; }
+
+    /* ============ option block ============ */
+    .option { margin: 2rem auto 0; max-width: 1280px; padding: 0 1.75rem 2rem; }
+    .option-label {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 0.9rem; padding-bottom: 0.65rem;
+      border-bottom: 1px solid rgba(11,18,32,0.08);
+    }
+    .option-label .left { display:flex; align-items:center; gap:0.7rem; }
+    .option-label .tag {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--Fog);
+    }
+    .option-label h2 { margin: 0; font-size: 1.05rem; font-weight: 600; }
+    .option-label .swatches {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.35rem 0.7rem; border: 1px solid rgba(11,18,32,0.12);
+      border-radius: 999px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.72rem; background: rgba(255,255,255,0.65);
+    }
+    .option-label .sw { width: 11px; height: 11px; border-radius: 999px; display: inline-block; }
+
+    /* ============ hero mockup ============ */
+    .hero {
+      position: relative; border-radius: 16px; overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--hairline);
+      isolation: isolate;
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.9) inset,
+        0 30px 80px -30px rgba(11,18,32,0.18),
+        0 1px 2px rgba(11,18,32,0.04);
+    }
+    /* soft cyan atmospheric wash — keeps logo hue alive in the air, not in text */
+    .hero::before {
+      content: ""; position: absolute; inset: 0;
+      background: var(--wash);
+      z-index: 0;
+    }
+    .hero::after {
+      content: ""; position: absolute; inset: 0;
+      background:
+        repeating-linear-gradient(0deg, rgba(11,18,32,0.035) 0 1px, transparent 1px 48px),
+        repeating-linear-gradient(90deg, rgba(11,18,32,0.035) 0 1px, transparent 1px 48px);
+      mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, black 30%, transparent 75%);
+      z-index: 1; pointer-events: none;
+    }
+    .hero-inner {
+      position: relative; z-index: 2;
+      display: grid; grid-template-columns: 1.15fr 1fr; gap: 2rem;
+      padding: 3rem 2.75rem 2.5rem;
+    }
+    @media (max-width: 880px) { .hero-inner { grid-template-columns: 1fr; } }
+
+    /* small cyan hairline detail — a reminder the logo color exists */
+    .cyan-rule {
+      display: inline-block; width: 36px; height: 3px; border-radius: 999px;
+      background: linear-gradient(90deg, var(--Logo) 0%, var(--Logo-Deep) 100%);
+      margin-bottom: 0.9rem;
+    }
+
+    .eyebrow {
+      display: inline-flex; align-self: flex-start;
+      padding: 0.35rem 0.9rem; border-radius: 999px;
+      font-size: 0.68rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      background: var(--eyebrow-bg);
+      color: var(--accent);
+      border: 1px solid var(--eyebrow-border);
+      margin-bottom: 1.1rem;
+    }
+
+    .headline {
+      font-size: clamp(2rem, 3.6vw, 3.1rem);
+      font-weight: 700; letter-spacing: -0.018em; line-height: 1.02;
+      margin: 0 0 0.9rem; color: var(--accent);
+    }
+    .headline .accent-word {
+      display: block; margin-top: 0.15em;
+      background: var(--headline-grad);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+
+    .lede { font-size: 0.95rem; line-height: 1.58; color: var(--Mute); max-width: 48ch; margin: 0 0 1.5rem; }
+
+    .btn-row { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+    .btn {
+      font-family: inherit; font-size: 0.88rem; font-weight: 600;
+      padding: 0.75rem 1.35rem; border-radius: 8px; cursor: pointer;
+      letter-spacing: 0.005em;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn-primary {
+      background: var(--accent); color: white; border: none;
+      box-shadow: 0 1px 0 rgba(255,255,255,0.22) inset, 0 10px 22px -10px var(--accent-shadow);
+    }
+    .btn-primary:hover { transform: translateY(-1px); }
+    .btn-quiet {
+      background: rgba(255,255,255,0.7);
+      border: 1px solid rgba(11,18,32,0.12);
+      color: var(--accent); backdrop-filter: blur(10px);
+    }
+    .btn-ghost {
+      background: transparent;
+      border: 1.5px solid color-mix(in srgb, var(--accent) 45%, transparent);
+      color: var(--accent);
+    }
+
+    .glass {
+      position: relative; align-self: center; justify-self: end;
+      width: 100%; max-width: 430px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 14px; padding: 1rem 1.15rem;
+      backdrop-filter: blur(18px) saturate(1.15);
+      box-shadow: 0 18px 40px -18px rgba(11,18,32,0.22);
+    }
+    @media (max-width: 880px) { .glass { justify-self: stretch; max-width: none; } }
+    .glass-head {
+      display: flex; justify-content: space-between; align-items: center;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--accent);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(11,18,32,0.08);
+    }
+    .glass-section {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--accent); margin: 0.9rem 0 0.35rem;
+    }
+    .glass-row {
+      display: grid; grid-template-columns: 1fr auto; gap: 0.5rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+      padding: 0.42rem 0;
+      border-bottom: 1px dashed rgba(11,18,32,0.08);
+    }
+    .glass-row:last-of-type { border-bottom: none; }
+    .glass-row .k { color: var(--Mute); letter-spacing: 0.04em; }
+    .glass-row .v { color: var(--accent); font-weight: 600; }
+    .link { display: inline-block; margin-top: 0.6rem; font-size: 0.78rem; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+
+    /* ============ stat row ============ */
+    .stat-row {
+      margin-top: 1rem;
+      display: grid; grid-template-columns: repeat(3, 1fr) auto; gap: 1rem;
+    }
+    @media (max-width: 880px) { .stat-row { grid-template-columns: 1fr 1fr; } }
+    .stat {
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(11,18,32,0.07);
+      border-radius: 14px; padding: 1rem 1.15rem; min-height: 116px;
+      backdrop-filter: blur(14px);
+    }
+    .stat .n {
+      font-size: 1.9rem; font-weight: 700; line-height: 1; letter-spacing: -0.01em;
+      color: var(--accent);
+    }
+    .stat .l { font-size: 0.78rem; color: var(--Mute); margin-top: 0.45rem; }
+    .stat .bar { margin-top: 0.7rem; height: 3px; background: rgba(11,18,32,0.06); border-radius: 999px; overflow: hidden; }
+    .stat .bar i { display: block; height: 100%; width: 72%; background: var(--accent); border-radius: inherit; }
+
+    .contact-cell {
+      display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 0.55rem;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(11,18,32,0.07);
+      border-radius: 14px; padding: 1rem 1.15rem; min-height: 116px;
+      backdrop-filter: blur(14px);
+    }
+    .contact-cell .cap { font-size: 0.7rem; color: var(--Fog); text-transform: uppercase; letter-spacing: 0.08em; }
+    .btn-contact {
+      font-family: inherit; font-size: 0.84rem; font-weight: 700;
+      padding: 0.6rem 1.1rem; border-radius: 8px; border: none; cursor: pointer;
+      color: white; background: var(--accent);
+      box-shadow: 0 8px 22px -10px var(--accent-shadow), 0 1px 0 rgba(255,255,255,0.18) inset;
+      text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    }
+
+    .reference {
+      display: flex; align-items: center; gap: 0.55rem; margin-top: 1rem;
+      font-size: 0.78rem; color: var(--Fog);
+    }
+    .reference .logo-dot {
+      width: 11px; height: 11px; border-radius: 999px; background: var(--Logo);
+      box-shadow: 0 0 10px color-mix(in srgb, var(--Logo) 40%, transparent);
+    }
+
+    /* =================================================
+       VARIANT TOKENS — logo stays cyan, body accent varies
+       ================================================= */
+
+    /* 1. Navy on Paper — enterprise/SaaS classic */
+    .navy {
+      --surface: #FAFBFC;
+      --hairline: rgba(11,18,32,0.08);
+      --wash: radial-gradient(ellipse 110% 85% at 85% -15%, rgba(48,218,241,0.20) 0%, transparent 55%),
+              radial-gradient(ellipse 80% 65% at -5% 115%, rgba(13,35,64,0.08) 0%, transparent 55%);
+      --accent: #0D2340;
+      --accent-shadow: rgba(13,35,64,0.45);
+      --headline-grad: linear-gradient(90deg, #0D2340 0%, #1E3A5F 100%);
+      --eyebrow-bg: rgba(13,35,64,0.06);
+      --eyebrow-border: rgba(13,35,64,0.18);
+      --glass-bg: rgba(255,255,255,0.72);
+      --glass-border: rgba(11,18,32,0.08);
+    }
+
+    /* 2. Graphite on Sky — softer, editorial-tech */
+    .graphite {
+      --surface: #EEF4F9;
+      --hairline: rgba(11,18,32,0.08);
+      --wash: radial-gradient(ellipse 120% 90% at 85% -20%, rgba(48,218,241,0.26) 0%, transparent 55%),
+              radial-gradient(ellipse 90% 70% at -10% 120%, rgba(43,49,60,0.10) 0%, transparent 55%),
+              linear-gradient(180deg, rgba(255,255,255,0.6) 0%, transparent 45%);
+      --accent: #2B313C;
+      --accent-shadow: rgba(43,49,60,0.45);
+      --headline-grad: linear-gradient(90deg, #2B313C 0%, #4A515F 100%);
+      --eyebrow-bg: rgba(43,49,60,0.06);
+      --eyebrow-border: rgba(43,49,60,0.18);
+      --glass-bg: rgba(255,255,255,0.65);
+      --glass-border: rgba(11,18,32,0.08);
+    }
+
+    /* 3. Warm Brown on Cream — editorial/premium; cyan + brown is magazine-design classic */
+    .brown {
+      --surface: #F7F4EE;
+      --hairline: rgba(72,48,12,0.10);
+      --wash: radial-gradient(ellipse 120% 90% at 85% -15%, rgba(48,218,241,0.18) 0%, transparent 55%),
+              radial-gradient(ellipse 90% 70% at -5% 120%, rgba(59,42,30,0.10) 0%, transparent 55%);
+      --accent: #3B2A1E;
+      --accent-shadow: rgba(59,42,30,0.45);
+      --headline-grad: linear-gradient(90deg, #3B2A1E 0%, #5A3F2B 100%);
+      --eyebrow-bg: rgba(59,42,30,0.07);
+      --eyebrow-border: rgba(59,42,30,0.20);
+      --glass-bg: rgba(255,255,255,0.78);
+      --glass-border: rgba(72,48,12,0.10);
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="brand">
+      <img src="/images/logo.png" alt="OverSite AI logo" />
+      <span class="name">OverSite<span class="ai">AI</span></span>
+    </div>
+    <div class="title">Light surface · dark accent (not cyan)</div>
+    <div class="meta">logo · #30DAF1 (fixed)</div>
+  </div>
+
+  <div class="page-intro">
+    <h1>Body accents that pair with cyan logo on a light surface</h1>
+    <p>Logo stays cyan (top-left, and as a subtle atmospheric wash + a thin hairline detail inside each hero). Body type, buttons, and data use a grounded dark color chosen to sit well against cyan on light.</p>
+    <span class="key"><span class="sw" style="background:#30DAF1"></span> cyan = logo only &nbsp;·&nbsp; <span class="sw" style="background:#0D2340"></span>/<span class="sw" style="background:#2B313C"></span>/<span class="sw" style="background:#3B2A1E"></span> = body accent per option</span>
+  </div>
+
+  <!-- OPTION 1 — NAVY ON PAPER -->
+  <section class="option navy">
+    <div class="option-label">
+      <div class="left">
+        <span class="sw" style="background:#0D2340"></span>
+        <span class="tag">Option 1</span>
+        <h2>Deep navy on paper — enterprise classic</h2>
+      </div>
+      <div class="swatches">
+        <span class="sw" style="background:#FAFBFC; border:1px solid rgba(11,18,32,0.12);"></span> surface #FAFBFC
+        &nbsp;·&nbsp;
+        <span class="sw" style="background:#0D2340"></span> accent #0D2340
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="cyan-rule"></span>
+          <span class="eyebrow">Field Operations Platform</span>
+          <h1 class="headline">Clarity for every <span class="accent-word">pad &amp; pipeline</span></h1>
+          <p class="lede">Prime power, pad-scale lighting, and an operations layer that ties gate events, loads, and shift notes into one auditable timeline.</p>
+          <div class="btn-row">
+            <button class="btn btn-primary">Explore Solutions</button>
+            <button class="btn btn-quiet">Talk To Us</button>
+            <button class="btn btn-ghost">Learn More</button>
+          </div>
+        </div>
+        <aside class="glass">
+          <div class="glass-head"><span>DRONE-CAM-01 / SECTOR-7</span><span>9:30:48 AM</span></div>
+          <div class="glass-section">Active Scan</div>
+          <div class="glass-row"><span class="k">SIGNAL</span><span class="v">93%</span></div>
+          <div class="glass-row"><span class="k">IMAGING</span><span class="v">15.8 MB/s</span></div>
+          <div class="glass-row"><span class="k">RANGE</span><span class="v">1.2 km</span></div>
+          <a class="link" href="#">View all events →</a>
+        </aside>
+      </div>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat"><div class="n">80%+</div><div class="l">Fewer blind handoffs</div><div class="bar"><i></i></div></div>
+      <div class="stat"><div class="n">94.7%</div><div class="l">Model precision (pilot)</div><div class="bar"><i></i></div></div>
+      <div class="stat"><div class="n">24/7</div><div class="l">Live field awareness</div><div class="bar"><i></i></div></div>
+      <div class="contact-cell"><span class="cap">Header CTA</span><button class="btn-contact">Contact Us</button></div>
+    </div>
+
+    <div class="reference"><span class="logo-dot"></span>Logo cyan next to navy body · the most classic pairing — reads "serious enterprise SaaS"</div>
+  </section>
+
+  <!-- OPTION 2 — GRAPHITE ON SKY -->
+  <section class="option graphite">
+    <div class="option-label">
+      <div class="left">
+        <span class="sw" style="background:#2B313C"></span>
+        <span class="tag">Option 2</span>
+        <h2>Graphite on sky — editorial-tech</h2>
+      </div>
+      <div class="swatches">
+        <span class="sw" style="background:#EEF4F9; border:1px solid rgba(11,18,32,0.12);"></span> surface #EEF4F9
+        &nbsp;·&nbsp;
+        <span class="sw" style="background:#2B313C"></span> accent #2B313C
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="cyan-rule"></span>
+          <span class="eyebrow">Field Operations Platform</span>
+          <h1 class="headline">Clarity for every <span class="accent-word">pad &amp; pipeline</span></h1>
+          <p class="lede">Prime power, pad-scale lighting, and an operations layer that ties gate events, loads, and shift notes into one auditable timeline.</p>
+          <div class="btn-row">
+            <button class="btn btn-primary">Explore Solutions</button>
+            <button class="btn btn-quiet">Talk To Us</button>
+            <button class="btn btn-ghost">Learn More</button>
+          </div>
+        </div>
+        <aside class="glass">
+          <div class="glass-head"><span>DRONE-CAM-01 / SECTOR-7</span><span>9:30:48 AM</span></div>
+          <div class="glass-section">Active Scan</div>
+          <div class="glass-row"><span class="k">SIGNAL</span><span class="v">93%</span></div>
+          <div class="glass-row"><span class="k">IMAGING</span><span class="v">15.8 MB/s</span></div>
+          <div class="glass-row"><span class="k">RANGE</span><span class="v">1.2 km</span></div>
+          <a class="link" href="#">View all events →</a>
+        </aside>
+      </div>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat"><div class="n">80%+</div><div class="l">Fewer blind handoffs</div><div class="bar"><i></i></div></div>
+      <div class="stat"><div class="n">94.7%</div><div class="l">Model precision (pilot)</div><div class="bar"><i></i></div></div>
+      <div class="stat"><div class="n">24/7</div><div class="l">Live field awareness</div><div class="bar"><i></i></div></div>
+      <div class="contact-cell"><span class="cap">Header CTA</span><button class="btn-contact">Contact Us</button></div>
+    </div>
+
+    <div class="reference"><span class="logo-dot"></span>Logo cyan next to graphite body · softer than navy, reads "design-forward B2B"</div>
+  </section>
+
+  <!-- OPTION 3 — WARM BROWN ON CREAM -->
+  <section class="option brown">
+    <div class="option-label">
+      <div class="left">
+        <span class="sw" style="background:#3B2A1E"></span>
+        <span class="tag">Option 3</span>
+        <h2>Warm brown on cream — editorial / premium</h2>
+      </div>
+      <div class="swatches">
+        <span class="sw" style="background:#F7F4EE; border:1px solid rgba(72,48,12,0.18);"></span> surface #F7F4EE
+        &nbsp;·&nbsp;
+        <span class="sw" style="background:#3B2A1E"></span> accent #3B2A1E
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="cyan-rule"></span>
+          <span class="eyebrow">Field Operations Platform</span>
+          <h1 class="headline">Clarity for every <span class="accent-word">pad &amp; pipeline</span></h1>
+          <p class="lede">Prime power, pad-scale lighting, and an operations layer that ties gate events, loads, and shift notes into one auditable timeline.</p>
+          <div class="btn-row">
+            <button class="btn btn-primary">Explore Solutions</button>
+            <button class="btn btn-quiet">Talk To Us</button>
+            <button class="btn btn-ghost">Learn More</button>
+          </div>
+        </div>
+        <aside class="glass">
+          <div class="glass-head"><span>DRONE-CAM-01 / SECTOR-7</span><span>9:30:48 AM</span></div>
+          <div class="glass-section">Active Scan</div>
+          <div class="glass-row"><span class="k">SIGNAL</span><span class="v">93%</span></div>
+          <div class="glass-row"><span class="k">IMAGING</span><span class="v">15.8 MB/s</span></div>
+          <div class="glass-row"><span class="k">RANGE</span><span class="v">1.2 km</span></div>
+          <a class="link" href="#">View all events →</a>
+        </aside>
+      </div>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat"><div class="n">80%+</div><div class="l">Fewer blind handoffs</div><div class="bar"><i></i></div></div>
+      <div class="stat"><div class="n">94.7%</div><div class="l">Model precision (pilot)</div><div class="bar"><i></i></div></div>
+      <div class="stat"><div class="n">24/7</div><div class="l">Live field awareness</div><div class="bar"><i></i></div></div>
+      <div class="contact-cell"><span class="cap">Header CTA</span><button class="btn-contact">Contact Us</button></div>
+    </div>
+
+    <div class="reference"><span class="logo-dot"></span>Logo cyan next to warm brown · unexpected and confident — reads "considered, editorial"</div>
+  </section>
+
+  <div style="height: 4rem;"></div>
+</body>
+</html>
