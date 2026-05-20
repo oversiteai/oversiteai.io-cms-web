@@ -3,113 +3,113 @@
   "display_id": 5,
   "content_type": "pages",
   "status": "published",
-  "version": 1,
-  "published_at": "2026-05-18T15:08:19.675124+00:00",
+  "version": 2,
+  "published_at": "2026-05-18T15:08:19.675124",
   "created_at": "2026-05-05T17:00:46.492426",
-  "updated_at": "2026-05-18T15:08:19.041381",
-  "title": "Home Page",
-  "pageKey": "home",
-  "hero": {
-    "badge": "Operational Intelligence Platform",
-    "titlePrimary": "Operational Intelligence",
-    "titleAccent": "for the Energy Sector",
-    "description": "From frac sites to pipelines, our platform turns field data into real-time operational awareness. We help energy operators monitor assets, reduce risk, and make faster decisions across complex environments.",
-    "primaryButtonLabel": "Explore Solutions",
-    "secondaryButtonLabel": "Talk To Us"
-  },
-  "spotlight": {
-    "cardTitle": "Spotlight",
-    "cardSubtitle": "Featured Product",
-    "name": "OverSite Power",
-    "description": "Natural gas already available on location becomes the primary fuel source for the site.",
-    "conventionalLabel": "Conventional",
-    "conventionalText": "diesel-powered equipment operating independently",
-    "oversiteLabel": "OverSite Power",
-    "oversiteText": "one on-site fuel source powering the operation",
-    "tagline": "Less Diesel. Fewer refuels. Smarter Site Power.",
-    "cta": "Learn more →"
-  },
+  "updated_at": "2026-05-20T11:35:06.572996",
   "ads": {
     "cards": [
       {
-        "imageTitle": "OverSite Power",
+        "cta": "Learn more →",
         "description": "Use natural gas already available on location to reduce diesel dependence and simplify site power.",
-        "cta": "Learn more →"
+        "imageTitle": "OverSite Power"
       },
       {
-        "imageTitle": "Field Services",
-        "description": "Boots-on-the-ground execution by crews who've worked the field — with real-time visibility from dispatch through closeout.",
-        "cta": "See our services →"
+        "cta": "See our services →",
+        "description": "Boots on the ground execution by crews who've worked the field with realtime visibility from dispatch through closeout.",
+        "imageTitle": "Field Services"
       },
       {
-        "imageTitle": "Operational Intelligence",
+        "cta": "Learn more →",
         "description": "Unify field data, alerts, and workflows into a single operational picture for faster decisions.",
-        "cta": "Learn more →"
+        "imageTitle": "Operational Intelligence"
       }
     ]
   },
   "comparison": {
     "badge": "TRADITIONAL VS. INTELLIGENT OPERATIONS",
-    "titlePrefix": "From Disconnected to",
-    "titleHighlight": "Fully Integrated",
     "description": "OverSiteAI unifies field data, automates workflows, and delivers real-time intelligence so your team can operate faster, safer, and with confidence.",
-    "traditionalHeader": "Traditional Operations",
     "oversiteHeader": "OverSiteAI Solution",
-    "traditionalItems": [
-      {
-        "title": "Manual, Error-Prone Field Tickets",
-        "description": "Most field tickets are written by hand or in spreadsheets. They're often submitted late, contain mistakes, and are hard to verify."
-      },
-      {
-        "title": "Disconnected Tools and Software",
-        "description": "Field data is scattered across different tools with no central platform. GPS, sensors, and logs operate in silos, making it difficult to track and manage operations in real time."
-      },
-      {
-        "title": "Delayed Incident Detection",
-        "description": "Issues like spills, equipment faults, or boundary breaches are often discovered late—after damage is done and risks increase."
-      }
-    ],
     "oversiteItems": [
       {
-        "title": "Auto-Generated, GPS-Verified Field Logs",
-        "description": "Field tickets are automatically generated and location-stamped. This improves accuracy, speeds up processing, and reduces fraud."
+        "description": "Field tickets are automatically generated and location stamped. This improves accuracy, speeds up processing, and reduces fraud.",
+        "title": "Auto-Generated, GPS-Verified Field Logs"
       },
       {
-        "title": "One Connected AI Platform",
-        "description": "All field data flows into one platform that brings everything together. GPS, sensors, and compliance logs are synced in real time and easy to monitor and manage."
+        "description": "All field data flows into one platform that brings everything together. GPS, sensors, and compliance logs are synced in real time and easy to monitor and manage.",
+        "title": "One Connected AI Platform"
       },
       {
-        "title": "Instant Detection of Spills and Violations",
-        "description": "AI and sensors detect issues as they happen and alert the right people immediately—reducing risk, preventing damage, and ensuring compliance."
+        "description": "AI/CV detection along with Smart Sensors spot issues sometimes before they even happen and alert the right people.  Eliminating risk, preventing damage, and ensuring compliance is our Specialty.",
+        "title": "Instant Detection of Spills and Violations"
+      }
+    ],
+    "titleHighlight": "Fully Integrated",
+    "titlePrefix": "From Disconnected to",
+    "traditionalHeader": "Traditional Operations",
+    "traditionalItems": [
+      {
+        "description": "Most field tickets are written by hand or in spreadsheets. They're often submitted late, contain mistakes, and are hard to verify.",
+        "title": "Manual, Error-Prone Field Tickets"
+      },
+      {
+        "description": "Field data is scattered across different tools with no central platform. GPS, sensors, and logs operate in silos, making it difficult to track and manage operations in real time.",
+        "title": "Disconnected Tools and Software"
+      },
+      {
+        "description": "Issues like spills, equipment faults, or boundary breaches are often discovered late, after damage is done and risks increase.",
+        "title": "Delayed Incident Detection"
       }
     ]
+  },
+  "hero": {
+    "badge": "Operational Intelligence Platform",
+    "description": "From frac sites to pipelines, our platform turns field data into real-time operational awareness. We help energy operators monitor assets, reduce risk, and make faster decisions across complex environments.",
+    "primaryButtonLabel": "Explore Solutions",
+    "secondaryButtonLabel": "Talk To Us",
+    "titleAccent": "for the Energy Sector",
+    "titlePrimary": "Operational Intelligence"
   },
   "metrics": {
     "badge": "Field-Proven Metrics That Matter",
-    "title": "Oversight You Can Measure",
-    "description": "Our platform doesn't just promise impact—it delivers it. From barrels tracked to uptime achieved, these numbers reflect the real results our partners rely on every day.",
+    "description": "Our platform doesn't just promise to make an impact, it delivers. From barrels tracked to uptime achieved, these numbers reflect the real results our partners rely on every day.",
     "items": [
       {
-        "number": "1ms",
+        "description": "Real-time detection powered by edge AI and event-driven telemetry.",
         "label": "Alert Speed",
-        "description": "Real-time detection powered by edge AI and event-driven telemetry."
+        "number": "1ms"
       },
       {
-        "number": "15,000+",
+        "description": "Automatically generated with location, time, and volume data.\nNo manual entry needed.",
         "label": "field tickets auto-filled",
-        "description": "Automatically generated with location, time, and volume data.\nNo manual entry needed."
+        "number": "15,000+"
       },
       {
-        "number": "18,500+",
+        "description": "Geofenced zones enable precise automation of arrival, dispatch, and validation workflows.",
         "label": "Geofencing Precision Events",
-        "description": "Geofenced zones enable precise automation of arrival, dispatch, and validation workflows."
+        "number": "18,500+"
       },
       {
-        "number": "99.9%",
+        "description": "Reliable performance even in remote areas, ensuring full visibility at all times.",
         "label": "GPS uptime in the field",
-        "description": "Reliable performance even in remote areas, ensuring full visibility at all times."
+        "number": "99.9%"
       }
-    ]
+    ],
+    "title": "Oversight You Can Measure"
   },
+  "pageKey": "home",
+  "spotlight": {
+    "cardSubtitle": "Featured Product",
+    "cardTitle": "Spotlight",
+    "conventionalLabel": "Conventional",
+    "conventionalText": "diesel-powered equipment operating independently",
+    "cta": "Learn more →",
+    "description": "Natural gas already available on location becomes the primary fuel source for the site.",
+    "name": "OverSite Power",
+    "oversiteLabel": "OverSite Power",
+    "oversiteText": "one on-site fuel source powering the operation",
+    "tagline": "Less Diesel. Fewer refuels. Smarter Site Power."
+  },
+  "title": "Home Page",
   "images": []
 }
