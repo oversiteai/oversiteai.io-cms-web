@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "display_id": 1,
+    "content_type": "pages",
+    "status": "modified",
+    "version": 15,
+    "published_at": "2026-05-18T11:35:58.403154",
+    "created_at": "2026-05-04T18:24:25.290228",
+    "updated_at": "2026-05-18T15:45:43.549146",
+    "believe": {
+      "eyebrow": "WHAT WE BELIEVE",
+      "image": "images/believe-wellsite-sunset.png",
+      "items": [
+        {
+          "body": "Technology should solve real problems. We build tools that are useful, reliable, and built for the way operations actually work.",
+          "title": "Practical Technology"
+        },
+        {
+          "body": "We are committed to ethical AI, transparency, and systems that support human decision-making and accountability.",
+          "title": "Responsible Innovation"
+        },
+        {
+          "body": "We believe the future of energy depends on cleaner, more efficient, and better-managed operations across the entire lifecycle.",
+          "title": "Smarter Energy Operations"
+        }
+      ]
+    },
+    "commitment": {
+      "body": "We are committed to helping the energy industry operate more efficiently, reduce waste, and improve environmental performance where possible. Our technology supports cleaner operations, stronger compliance, and better stewardship of the resources we all depend on.",
+      "eyebrow": "OUR COMMITMENT",
+      "image": "images/og-processing-facility-dusk.png",
+      "title": "Committed to a better future\nfor Industrial Operations"
+    },
+    "hero": {
+      "eyebrow": "ABOUT US",
+      "image": "images/about-hero.png",
+      "lede": "OverSiteAI brings together oilfield experience, practical AI, sensors, and operational software to help energy operators run smarter, safer, and more efficient Operations.",
+      "title": "Built in the Field.\nDesigned for what comes next."
+    },
+    "pageKey": "about",
+    "title": "About Page",
+    "who": {
+      "eyebrow": "WHO WE ARE",
+      "image": "images/field-experience-rig.png",
+      "paragraphs": [
+        "OverSiteAI was built at the intersection of oilfield experience and modern industrial technology. We understand the realities of field operations, production pressure, site logistics, compliance, equipment reliability, and the cost of poor visibility.",
+        "We combine generations of field knowledge with advanced capabilities in AI, sensors, and software to build systems that deliver real operational value where it matters most."
+      ],
+      "title": "Field experience meets modern technology"
+    },
+    "images": []
+  },
+  {
+    "id": 2,
+    "display_id": 2,
+    "content_type": "pages",
+    "status": "published",
+    "version": 1,
+    "published_at": "2026-05-18T15:08:19.675124+00:00",
+    "created_at": "2026-05-05T16:41:23.983677",
+    "updated_at": "2026-05-18T15:08:18.384988",
+    "title": "Solutions Page",
+    "pageKey": "solutions",
+    "header": {
+      "tag": "Solutions made for on-ground realities",
+      "titlePrefix": "Smarter Field",
+      "titleHighlight": "Solutions",
+      "paragraphs": [
+        "We built these solutions with field teams in mind, solving everyday pain points through intuitive tools, automation, and reliable data."
+      ]
+    },
+    "images": []
+  },
+  {
+    "id": 3,
+    "display_id": 3,
+    "content_type": "pages",
+    "status": "published",
+    "version": 6,
+    "published_at": "2026-05-18T15:08:19.675124",
+    "created_at": "2026-05-05T16:41:23.986193",
+    "updated_at": "2026-05-21T03:03:20.999483",
+    "billingSection": {
+      "eyebrow": "TRANSPARENCY & BILLING",
+      "lede": "Structured documentation aligns field activity with invoicing — so closeout is faster, disputes are rarer, and the numbers always tie back to what was actually done.",
+      "points": [
+        "Realtime visibility into service activity and costs",
+        "Clear pricing with no hidden charges",
+        "Efficient invoicing aligned with field activity",
+        "Faster closeout with fewer billing disputes"
+      ],
+      "title": "Clear work. Clear billing."
+    },
+    "cardsSection": {
+      "eyebrow": "OUR SERVICES",
+      "items": [
+        {
+          "description": "Proactive monitoring during frac operations to identify, document, and respond to pressure communication risks before they cost you a producer. RealTime Data, RealTime Decisions.",
+          "displayId": 9,
+          "headline": "Protect the wells you’re already producing.",
+          "title": "Defensive Frac & Offset Well Loading"
+        },
+        {
+          "description": "Full spectrum environmental response from initial assessment and containment through soil and water remediation, with fully digitized documentation that meets regulator scrutiny on the first review.",
+          "displayId": 7,
+          "headline": "Containment to closeout, with records that hold up.",
+          "title": "Environmental Site Support & Spill Remediation"
+        },
+        {
+          "description": "Setup, oversight, and breakdown for active locations. Paired with short or long term smart camera deployments, visibility on demand, no permanent install required.",
+          "displayId": 8,
+          "headline": "Build it. Watch over it. Pull it back.",
+          "title": "Pad Infrastructure Support & Smart Cameras"
+        },
+        {
+          "description": "Vacuum services covering scheduled wellhead cellar maintenance through emergency spill response. Fast mobilization that keeps environmental exposure and non-productive time to a minimum.",
+          "displayId": 6,
+          "headline": "Routine cleanouts. Rapid response.",
+          "title": "Cellar Cleaning & Gap Vacs"
+        }
+      ],
+      "lede": "Bundled service offerings built for drilling, completions, and production. Deploy individually or combine to match what your site actually needs.",
+      "title": "Practical support across the field"
+    },
+    "header": {
+      "paragraphs": [
+        "OverSite Services is the execution arm of the OverSiteAI platform. Our crews come out of rigs, frac sites, SWDs, and production locations with decades of real world service time. We know how the work actually gets done and where it usually breaks down.",
+        "That's why we built our services around a simple idea: what happens on location should match what shows up on the invoice. Execution, documentation, and billing move together, in real time, from dispatch to closeout."
+      ],
+      "tag": "FIELD SERVICES",
+      "titleHighlight": "work in the field",
+      "titlePrefix": "Built by people who"
+    },
+    "pageKey": "services",
+    "pillarsSection": {
+      "eyebrow": "WHY OVERSITE SERVICES",
+      "items": [
+        {
+          "description": "Crews with decades of real-world oilfield service time.",
+          "title": "Built by Experience"
+        },
+        {
+          "description": "Realtime monitoring and reporting, without the added complexity.",
+          "title": "Technology Enabled"
+        },
+        {
+          "description": "Practical solutions designed for real operating conditions.",
+          "title": "Field First Execution"
+        },
+        {
+          "description": "Deployed individually or bundled to fit site needs.",
+          "title": "Scalable & Flexible"
+        }
+      ],
+      "title": "A different approach to field execution"
+    },
+    "title": "Services Page",
+    "images": []
+  },
+  {
+    "id": 4,
+    "display_id": 4,
+    "content_type": "pages",
+    "status": "draft",
+    "version": 1,
+    "published_at": null,
+    "created_at": "2026-05-05T16:41:23.987986",
+    "updated_at": "2026-05-05T16:41:23.987988",
+    "title": "Media Page",
+    "pageKey": "media",
+    "header": {
+      "tag": "Industry Insights",
+      "titlePrefix": "Industry",
+      "titleHighlight": "News & Insights",
+      "paragraphs": [
+        "We track the pulse of emerging technologies, critical infrastructure, and cybersecurity to help you navigate what's next."
+      ]
+    },
+    "images": []
+  },
+  {
+    "id": 5,
+    "display_id": 5,
+    "content_type": "pages",
+    "status": "staged",
+    "version": 3,
+    "published_at": "2026-05-18T15:08:19.675124",
+    "created_at": "2026-05-05T17:00:46.492426",
+    "updated_at": "2026-05-21T03:21:03.167762",
+    "ads": {
+      "cards": [
+        {
+          "cta": "Learn more →",
+          "description": "Use natural gas already available on location to reduce diesel dependence and simplify site power.",
+          "imageTitle": "OverSite Power"
+        },
+        {
+          "cta": "See our services →",
+          "description": "Boots on the ground execution by crews who've worked the field with realtime visibility from dispatch through closeout.",
+          "imageTitle": "Field Services"
+        },
+        {
+          "cta": "Learn more →",
+          "description": "Unify field data, alerts, and workflows into a single operational picture for faster decisions.",
+          "imageTitle": "Operational Intelligence"
+        }
+      ]
+    },
+    "comparison": {
+      "badge": "TRADITIONAL VS. INTELLIGENT OPERATIONS",
+      "description": "OverSiteAI unifies field data, automates workflows, and delivers real-time intelligence so your team can operate faster, safer, and with confidence.",
+      "oversiteHeader": "OverSiteAI Solution",
+      "oversiteItems": [
+        {
+          "description": "Field tickets are automatically generated and location stamped. This improves accuracy, speeds up processing, and reduces fraud.",
+          "title": "Auto-Generated, GPS-Verified Field Logs"
+        },
+        {
+          "description": "All field data flows into one platform that brings everything together. GPS, sensors, and compliance logs are synced in real time and easy to monitor and manage.",
+          "title": "One Connected AI Platform"
+        },
+        {
+          "description": "AI/CV detection along with Smart Sensors spot issues sometimes before they even happen and alert the right people.  Eliminating risk, preventing damage, and ensuring compliance is our Specialty.",
+          "title": "Instant Detection of Spills and Violations"
+        }
+      ],
+      "titleHighlight": "Fully Integrated",
+      "titlePrefix": "From Disconnected to",
+      "traditionalHeader": "Traditional Operations",
+      "traditionalItems": [
+        {
+          "description": "Most field tickets are written by hand or in spreadsheets. They're often submitted late, contain mistakes, and are hard to verify.",
+          "title": "Manual Error Prone Field Tickets"
+        },
+        {
+          "description": "Field data is scattered across different tools with no central platform. GPS, sensors, and logs operate in silos, making it difficult to track and manage operations in real time.",
+          "title": "Disconnected Tools and Software"
+        },
+        {
+          "description": "Issues like spills, equipment faults, or boundary breaches are often discovered late, after damage is done and risks increase.",
+          "title": "Delayed Incident Detection"
+        }
+      ]
+    },
+    "hero": {
+      "badge": "Operational Intelligence Platform",
+      "description": "From frac sites to pipelines, our platform turns field data into real-time operational awareness. We help energy operators monitor assets, reduce risk, and make faster decisions across complex environments.",
+      "primaryButtonLabel": "Explore Solutions",
+      "secondaryButtonLabel": "Talk To Us",
+      "titleAccent": "for the Energy Sector",
+      "titlePrimary": "Operational Intelligence"
+    },
+    "metrics": {
+      "badge": "Field Proven Metrics That Matter",
+      "description": "Our platform doesn't just promise to make an impact, it delivers. From barrels tracked to uptime achieved, these numbers reflect the real results our partners rely on every day.",
+      "items": [
+        {
+          "description": "Real-time detection powered by edge AI and event-driven telemetry.",
+          "label": "Alert Speed",
+          "number": "1ms"
+        },
+        {
+          "description": "Automatically generated with location, time, and volume data.\nNo manual entry needed.",
+          "label": "field tickets auto-filled",
+          "number": "15,000+"
+        },
+        {
+          "description": "Geofenced zones enable precise automation of arrival, dispatch, and validation workflows.",
+          "label": "Geofencing Precision Events",
+          "number": "18,500+"
+        },
+        {
+          "description": "Reliable performance even in remote areas, ensuring full visibility at all times.",
+          "label": "GPS uptime in the field",
+          "number": "99.9%"
+        }
+      ],
+      "title": "Oversight You Can Measure"
+    },
+    "pageKey": "home",
+    "spotlight": {
+      "cardSubtitle": "Featured Product",
+      "cardTitle": "Spotlight",
+      "conventionalLabel": "Conventional",
+      "conventionalText": "diesel-powered equipment operating independently",
+      "cta": "Learn more →",
+      "description": "Natural gas already available on location becomes the primary fuel source for the site.",
+      "name": "OverSite Power",
+      "oversiteLabel": "OverSite Power",
+      "oversiteText": "one on-site fuel source powering the operation",
+      "tagline": "Less Diesel. Fewer refuels. Smarter Site Power."
+    },
+    "title": "Home Page",
+    "images": []
+  }
+]
