@@ -184,10 +184,10 @@
     "display_id": 5,
     "content_type": "pages",
     "status": "staged",
-    "version": 3,
+    "version": 4,
     "published_at": "2026-05-18T15:08:19.675124",
     "created_at": "2026-05-05T17:00:46.492426",
-    "updated_at": "2026-05-21T03:21:03.167762",
+    "updated_at": "2026-05-21T12:29:10.534911",
     "ads": {
       "cards": [
         {
@@ -202,8 +202,8 @@
         },
         {
           "cta": "Learn more →",
-          "description": "Unify field data, alerts, and workflows into a single operational picture for faster decisions.",
-          "imageTitle": "Operational Intelligence"
+          "description": "Track loads, routes, volumes, site activity, and digital regulatory documentation in one connected workflow. Built for SWD, produced water, oil hauling, chemical transport, hazardous materials, and regulated field operations.",
+          "imageTitle": "Fluid Tracking & Compliance"
         }
       ]
     },
