@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OverSiteAI</title>
+  <script>
+    /*
+      SPA 404 redirect for GitHub Pages + HashRouter.
+
+      The site uses HashRouter, so all real routes live under "#/...".
+      But people sometimes hit (or share) a URL without the hash, e.g.
+      "oversiteai.io/solution/detail/4". GitHub Pages then can't find
+      a real file at that path and returns this 404.html.
+
+      This script grabs the requested path + search and re-routes the
+      browser to the canonical hash URL, so the SPA can take over and
+      render the right page instead of showing a "Not Found" screen.
+    */
+    (function () {
+      try {
+        var origin = window.location.origin;
+        var path = window.location.pathname || '/';
+        var search = window.location.search || '';
+        var hash = window.location.hash || '';
+        // If a hash is already present, just go home — don't loop.
+        if (hash && hash.length > 1) {
+          window.location.replace(origin + '/');
+          return;
+        }
+        // Strip any leading slash, then route everything into the hash.
+        var routed = path.replace(/^\/+/, '');
+        window.location.replace(origin + '/' + search + '#/' + routed);
+      } catch (e) {
+        window.location.replace('/');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p style="font-family: Inter, sans-serif; color: #A7B2BA; padding: 2rem;">
+    Redirecting&hellip;
+  </p>
+</body>
+</html>
