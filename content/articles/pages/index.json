@@ -77,15 +77,15 @@
     "display_id": 3,
     "content_type": "pages",
     "status": "published",
-    "version": 5,
+    "version": 6,
     "published_at": "2026-05-18T15:08:19.675124",
     "created_at": "2026-05-05T16:41:23.986193",
-    "updated_at": "2026-05-19T15:07:44.454754",
+    "updated_at": "2026-05-21T03:03:20.999483",
     "billingSection": {
       "eyebrow": "TRANSPARENCY & BILLING",
       "lede": "Structured documentation aligns field activity with invoicing — so closeout is faster, disputes are rarer, and the numbers always tie back to what was actually done.",
       "points": [
-        "Real-time visibility into service activity and costs",
+        "Realtime visibility into service activity and costs",
         "Clear pricing with no hidden charges",
         "Efficient invoicing aligned with field activity",
         "Faster closeout with fewer billing disputes"
@@ -96,25 +96,25 @@
       "eyebrow": "OUR SERVICES",
       "items": [
         {
-          "description": "Proactive monitoring during frac operations to identify, document, and respond to pressure communication risks before they cost you a producer. Real-time data, real-time decisions.",
+          "description": "Proactive monitoring during frac operations to identify, document, and respond to pressure communication risks before they cost you a producer. RealTime Data, RealTime Decisions.",
           "displayId": 9,
           "headline": "Protect the wells you’re already producing.",
           "title": "Defensive Frac & Offset Well Loading"
         },
         {
-          "description": "Full-spectrum environmental response — from initial assessment and containment through soil and water remediation, with documentation that meets regulator scrutiny on the first review.",
+          "description": "Full spectrum environmental response from initial assessment and containment through soil and water remediation, with fully digitized documentation that meets regulator scrutiny on the first review.",
           "displayId": 7,
           "headline": "Containment to closeout, with records that hold up.",
           "title": "Environmental Site Support & Spill Remediation"
         },
         {
-          "description": "Setup, oversight, and breakdown for active locations — paired with short- or long-term smart camera deployments. Visibility on demand, no permanent install required.",
+          "description": "Setup, oversight, and breakdown for active locations. Paired with short or long term smart camera deployments, visibility on demand, no permanent install required.",
           "displayId": 8,
           "headline": "Build it. Watch over it. Pull it back.",
           "title": "Pad Infrastructure Support & Smart Cameras"
         },
         {
-          "description": "Vacuum services covering scheduled wellhead cellar maintenance through emergency spill response. Fast mobilization that keeps environmental exposure — and non-productive time — to a minimum.",
+          "description": "Vacuum services covering scheduled wellhead cellar maintenance through emergency spill response. Fast mobilization that keeps environmental exposure and non-productive time to a minimum.",
           "displayId": 6,
           "headline": "Routine cleanouts. Rapid response.",
           "title": "Cellar Cleaning & Gap Vacs"
@@ -141,12 +141,12 @@
           "title": "Built by Experience"
         },
         {
-          "description": "Real-time monitoring and reporting, without the added complexity.",
-          "title": "Technology-Enabled"
+          "description": "Realtime monitoring and reporting, without the added complexity.",
+          "title": "Technology Enabled"
         },
         {
           "description": "Practical solutions designed for real operating conditions.",
-          "title": "Field-First Execution"
+          "title": "Field First Execution"
         },
         {
           "description": "Deployed individually or bundled to fit site needs.",
